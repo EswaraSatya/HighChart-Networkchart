@@ -382,13 +382,11 @@ const FirstComponent = () => {
             if (this instanceof Highcharts.Series && e.options.id === "lang-tree") {
 
                 let mainNode = null;
-                let mainNodeData = null;
 
                 // Find the main node
                 e.options.data.forEach(function (link) {
                     if (!mainNode) {
                         mainNode = link.from;
-                        mainNodeData = link;
                     }
                 });
 
