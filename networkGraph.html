@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+    body {
+      font-family: "Poppins", sans-serif;
+    }
+    .logo-circle {
+      width: 45px;
+      height: 45px;
+      border-radius: 50px;
+      background-color: #fff;
+      border: 1px solid #000;
+    }
+    .logo-circle img {
+      width: 91%;
+      height: auto;
+      position: relative;
+      top: 50%;
+      transform: translate(6%, -50%);
+    }
+    .legend {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 13px;
+      border: 1px solid;
+      padding: 10px;
+    }
+    .panel {
+      position: fixed;
+      top: 0;
+      right: -300px; /* Initially hide the panel to the right */
+      width: 300px;
+      height: 100%;
+      background-color: #f4f4f4;
+      transition: right 0.5s; /* Apply transition effect to right position */
+      z-index: 1000; /* Ensure panel stays above other content */
+    }
+
+    .panel-content {
+      padding: 20px;
+    }
+
+    .line {
+      width: 150px;
+      height: 1px;
+      margin: 10px 0;
+    }
+
+    .dash {
+      border-top: 4px dashed black;
+    }
+
+    .solid {
+      border-top: 4px solid black;
+    }
+
+    .dot {
+      border-top: 4px dotted black;
+    }
+    .contain {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  </style>
+  <body>
+    <div
+      style="
+        height: 0px;
+        position: absolute;
+        z-index: 100000;
+        display: flex;
+        justify-content: flex-end;
+        right: 10px;
+      "
+    >
+      <button
+        style="height: 48px"
+        onclick="toggleLegendPanel()"
+        id="toggleLegendButton"
+      >
+        Legend
+      </button>
+    </div>
+    <div id="legendPanel" class="panel">
+      <div class="panel-content">
+        <div class="legend" id="sectorColorsContainer"></div>
+      </div>
+      <div class="panel-content">
+        <div class="legend">
+          <div class="contain">
+            <div>Partnership</div>
+            <div class="line dash"></div>
+          </div>
+          <div class="contain">
+            <div>Investment</div>
+            <div class="line solid"></div>
+          </div>
+          <div class="contain">
+            <div>Acquisition</div>
+            <div class="line dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container" style="width: 100%; height: 100%"></div>
+
+    <script>
+      function toggleLegendPanel() {
+        const legendPanel = document.getElementById("legendPanel");
+        const computedStyle = window.getComputedStyle(legendPanel);
+        const currentRight = computedStyle.getPropertyValue("right");
+
+        if (currentRight === "-300px") {
+          legendPanel.style.display = "block";
+          legendPanel.style.right = "0";
+          legendPanel.style.height = "initial";
+          legendPanel.style.overflowY = "hidden";
+          legendPanel.style.width = "400px";
+          legendPanel.style.marginTop = "99px";
+        } else {
+          legendPanel.style.right = "-300px";
+          legendPanel.style.height = "initial";
+          legendPanel.style.overflowY = "auto";
+          legendPanel.style.width = "0px";
+        }
+      }
+
+      Highcharts.addEvent(Highcharts.Series, "afterSetOptions", function (e) {
+        const predefinedColors = [
+          "#1f77b4",
+          "#ff7f0e",
+          "#2ca02c",
+          "#d62728",
+          "#9467bd",
+          "#8c564b",
+          "#e377c2",
+          "#7f7f7f",
+          "#bcbd22",
+          "#17becf",
+          "#aec7e8",
+          "#ffbb78",
+          "#98df8a",
+          "#ff9896",
+          "#c5b0d5",
+        ];
+
+        const sectorColorsMap = {};
+        console.log(sectorColorsMap, "sectorColorsMap");
+        const nodes = {};
+        const colorMap = {};
+        let i = 0;
+
+        if (this instanceof Highcharts.Series && e.options.id === "lang-tree") {
+          e.options.data.forEach(function (link) {
+            const sector = link.sector;
+            if (!sectorColorsMap[sector]) {
+              sectorColorsMap[sector] =
+                predefinedColors[i++ % predefinedColors.length];
+            }
+            if (!nodes[link.from]) {
+              nodes[link.from] = {
+                id: link.from,
+                marketValue:
+                  link.marketValue != "NA" ? link.marketValue + "M" : "",
+                partnership: link.partnership,
+                marker: {
+                  radius:
+                    link.from === "Bayer" ||
+                    link.from === "Astrazeneca" ||
+                    link.from === "Merck" ||
+                    link.from === "AbbVie" ||
+                    link.from === "Novartis" ||
+                    link.from === "Bristol-Myers Squibb" ||
+                    link.from === "Johnson & Johnson" ||
+                    link.from === "Pfizer" ||
+                    link.from === "Sanofi" ||
+                    link.from === "Amgen" ||
+                    link.from === "BioNTech" ||
+                    link.from === "Boehringer Ingelheim" ||
+                    link.from === "Eli Lilly" ||
+                    link.from === "Gilead Sciences" ||
+                    link.from === "GSK" ||
+                    link.from === "Merck KGaA" ||
+                    link.from === "Moderna" ||
+                    link.from === "Novo Nordisk" ||
+                    link.from === "Takeda Pharmaceutical" ||
+                    link.from === "Roche"
+                      ? 1
+                      : 6,
+                },
+                to: link.to,
+                color: sectorColorsMap[sector],
+                Modality: link.Modality,
+                Companyname: link.Companyname,
+              };
+            }
+
+            if (!nodes[link.to]) {
+              nodes[link.to] = {
+                id: link.to,
+                marketValue:
+                  link.marketValue != "NA" ? link.marketValue + "M" : "",
+                to: link.to,
+                partnership: link.partnership,
+                marker: {
+                  radius: 6,
+                },
+                Modality: link.Modality,
+                Companyname: link.Companyname,
+                color: sectorColorsMap[sector],
+              };
+            }
+            nodes[link.from].color = sectorColorsMap[sector];
+            nodes[link.to].color = sectorColorsMap[sector];
+            link.color = sectorColorsMap[sector];
+          });
+
+          e.options.nodes = Object.keys(nodes).map(function (id) {
+            return nodes[id];
+          });
+          let sectorColorsHTML = "";
+          for (const [sector, color] of Object.entries(sectorColorsMap)) {
+            sectorColorsHTML += `<div style="display:flex;justify-content:space-between;"><div>${sector}</div><div style="border: 1px solid;padding: 5px;margin-left: 13px;background-color: #1f77b4;height: 8px;width: 8px; background-color: ${color}"></div></div>`;
+          }
+          document.getElementById("sectorColorsContainer").innerHTML =
+            sectorColorsHTML;
+        }
+      });
+
+      let data = [
+        {
+          partnership: "Partnership",
+          modality: "Oligonucleotide Therapeutics",
+          dashStyle: "Dash",
+          marketValue: "3.4",
+          from: "Astrazeneca",
+          to: "University of Manchester ",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Partnership",
+          modality: "Oligonucleotide Therapeutics",
+          dashStyle: "Dash",
+          marketValue: "3.4",
+          from: "Novartis",
+          to: "University of Manchester ",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "In-silico drug discovery",
+          dashStyle: "Solid",
+          marketValue: "NA",
+          from: "Pfizer",
+          to: "DenovAI",
+          sector: "Biotechnology ",
+        },
+        {
+          partnership: "Investment",
+          modality: "In-silico drug discovery",
+          dashStyle: "Solid",
+          marketValue: "NA",
+          from: "AstraZeneca",
+          to: "DenovAI",
+          sector: "Biotechnology ",
+        },
+        {
+          partnership: "Investment",
+          modality: "In-silico drug discovery",
+          dashStyle: "Solid",
+          marketValue: "NA",
+          from: "Merck & Co",
+          to: "DenovAI",
+          sector: "Biotechnology ",
+        },
+        {
+          partnership: "Investment",
+          modality: "Engineered Organs",
+          dashStyle: "Solid",
+          marketValue: "3.0",
+          from: "AstraZeneca",
+          to: "IVIVA Medical",
+          sector: "Organ Transplantation",
+        },
+        {
+          partnership: "Investment",
+          modality: "Engineered Organs",
+          dashStyle: "Solid",
+          marketValue: "3.0",
+          from: " Johnson & Johnson",
+          to: "IVIVA Medical",
+          sector: "Organ Transplantation",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI in Clinical Trials",
+          dashStyle: "Solid",
+          marketValue: "NA",
+          from: "Pfizer",
+          to: "OMEC.AI",
+          sector: "Biotechnology ",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI in Clinical Trials",
+          dashStyle: "Solid",
+          marketValue: "NA",
+          from: "AstraZeneca",
+          to: "OMEC.AI",
+          sector: "Biotechnology ",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI in Clinical Trials",
+          dashStyle: "Solid",
+          marketValue: "NA",
+          from: "Merck & Co",
+          to: "OMEC.AI",
+          sector: "Biotechnology ",
+        },
+        {
+          partnership: "Partnership",
+          modality: "Vaccines",
+          dashStyle: "Dash",
+          marketValue: "NA",
+          from: "Merck & Co",
+          to: " Sanofi",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Partnership",
+          modality: "AI-powered diagnostics",
+          dashStyle: "Dash",
+          marketValue: "NA",
+          from: "Merck & Co",
+          to: "Owkins",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI-powered diagnostics",
+          dashStyle: "Solid",
+          marketValue: "180.0",
+          from: "Sanofi",
+          to: "Owkins",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI-powered diagnostics",
+          dashStyle: "Solid",
+          marketValue: "300.0",
+          from: "BMS",
+          to: "Owkins",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Radiopharmaceutical therapy",
+          dashStyle: "Solid",
+          marketValue: "84.0",
+          from: "Merck & Co",
+          to: "Aktis Oncology",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Radiopharmaceutical therapy",
+          dashStyle: "Solid",
+          marketValue: "84.0",
+          from: "BMS",
+          to: "Aktis Oncology",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Radiopharmaceutical therapy",
+          dashStyle: "Solid",
+          marketValue: "84.0",
+          from: "Novartis",
+          to: "Aktis Oncology",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Neuroscience Therapy",
+          dashStyle: "Solid",
+          marketValue: "100.0",
+          from: "Merck & Co",
+          to: "Verge Genomics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Neuroscience Therapy",
+          dashStyle: "Solid",
+          marketValue: "100.0",
+          from: "Eli Lilly",
+          to: "Verge Genomics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Neuroscience Therapy",
+          dashStyle: "Solid",
+          marketValue: "100.0",
+          from: " Astrazeneca",
+          to: "Verge Genomics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI in Clinical Trials",
+          dashStyle: "Solid",
+          marketValue: "165.0",
+          from: "Merck & Co",
+          to: "Path AI inc",
+          sector: "Biotechnology ",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI in Clinical Trials",
+          dashStyle: "Solid",
+          marketValue: "165.0",
+          from: "BMS",
+          to: "Path AI inc",
+          sector: "Biotechnology ",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI-powered diagnostics",
+          dashStyle: "Solid",
+          marketValue: "3.5",
+          from: "Astrazeneca",
+          to: "BioMark Diagnostic Solutions",
+          sector: "Disease Diagnostics and Devices",
+        },
+        {
+          partnership: "Investment",
+          modality: "AI-powered diagnostics",
+          dashStyle: "Solid",
+          marketValue: "3.5",
+          from: "Pfizer",
+          to: "BioMark Diagnostic Solutions",
+          sector: "Disease Diagnostics and Devices",
+        },
+        {
+          partnership: "Investment",
+          modality: "Precision Therapeutics",
+          dashStyle: "Solid",
+          marketValue: "123.0",
+          from: "Pfizer",
+          to: "Flare Therapeutics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Precision Therapeutics",
+          dashStyle: "Solid",
+          marketValue: "123.0",
+          from: "Eli Lilly",
+          to: "Flare Therapeutics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Precision Therapeutics",
+          dashStyle: "Solid",
+          marketValue: "123.0",
+          from: "Novartis",
+          to: "Flare Therapeutics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cell therapy",
+          dashStyle: "Solid",
+          marketValue: "37.0",
+          from: "Pfizer",
+          to: "EvolveImmune Therapeutics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cell therapy",
+          dashStyle: "Solid",
+          marketValue: "37.0",
+          from: "Takeda",
+          to: "EvolveImmune Therapeutics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cell therapy",
+          dashStyle: "Solid",
+          marketValue: "37.0",
+          from: "Novartis",
+          to: "EvolveImmune Therapeutics",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cytokine-based therapeutics",
+          dashStyle: "Solid",
+          marketValue: "124.0",
+          from: "Novartis",
+          to: "Anaveon",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cytokine-based therapeutics",
+          dashStyle: "Solid",
+          marketValue: "124.0",
+          from: " Pfizer",
+          to: "Anaveon",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Partnership",
+          modality: "Genomics analysis",
+          dashStyle: "Dash",
+          marketValue: "NA",
+          from: "AbbVie",
+          to: "Biogen",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Partnership",
+          modality: "Genomics analysis",
+          dashStyle: "Dash",
+          marketValue: "NA",
+          from: "Pfizer",
+          to: "Biogen",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Digital health tool",
+          dashStyle: "Solid",
+          marketValue: "14.0",
+          from: "Merck & Co",
+          to: "Cancer IQ",
+          sector: "Biotechnology",
+        },
+        {
+          partnership: "Investment",
+          modality: "Digital health tool",
+          dashStyle: "Solid",
+          marketValue: "14.0",
+          from: "Amgen",
+          to: "Cancer IQ",
+          sector: "Biotechnology",
+        },
+        {
+          partnership: "Investment",
+          modality: "Digital health tool",
+          dashStyle: "Solid",
+          marketValue: "45.0",
+          from: "Novartis",
+          to: "Koneksa Health",
+          sector: "Biotechnology",
+        },
+        {
+          partnership: "Investment",
+          modality: "Digital health tool",
+          dashStyle: "Solid",
+          marketValue: "45.0",
+          from: "Takeda",
+          to: "Koneksa Health",
+          sector: "Biotechnology",
+        },
+        {
+          partnership: "Investment",
+          modality: "Digital health tool",
+          dashStyle: "Solid",
+          marketValue: "45.0",
+          from: "Merck & Co",
+          to: "Koneksa Health",
+          sector: "Biotechnology",
+        },
+        {
+          partnership: "Investment",
+          modality: "Gene therapy",
+          dashStyle: "Solid",
+          marketValue: "10.0",
+          from: "Novartis",
+          to: "FoRx Therapeutics AG",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Gene therapy",
+          dashStyle: "Solid",
+          marketValue: "10.0",
+          from: "Pfizer",
+          to: "FoRx Therapeutics AG",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cell therapy",
+          dashStyle: "Solid",
+          marketValue: "165.0",
+          from: "Bayer",
+          to: "Capstan Therapeutics, Inc",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cell therapy",
+          dashStyle: "Solid",
+          marketValue: "165.0",
+          from: "Pfizer",
+          to: "Capstan Therapeutics, Inc",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cell therapy",
+          dashStyle: "Solid",
+          marketValue: "165.0",
+          from: "Novartis",
+          to: "Capstan Therapeutics, Inc",
+          sector: "Drug discovery and development",
+        },
+        {
+          partnership: "Investment",
+          modality: "Cell therapy",
+          dashStyle: "Solid",
+          marketValue: "165.0",
+          from: "Eli Lilly",
+          to: "Capstan Therapeutics, Inc",
+          sector: "Drug discovery and development",
+        },
+      ];
+      data.sort((a, b) => a.from.localeCompare(b.from));
+
+      let chart;
+
+      document.addEventListener("DOMContentLoaded", function () {
+        formMap(data);
+      });
+
+      function formMap(mapData) {
+        console.log(mapData, "mapData");
+        chart = Highcharts.chart("container", {
+          chart: {
+            type: "networkgraph",
+            height: "100%",
+            plotBorderWidth: 1,
+          },
+          title: {
+            text: "",
+          },
+          subTitle: {
+            text: "",
+          },
+          credits: { enabled: false },
+          plotOptions: {
+            networkgraph: {
+              keys: ["from", "to"],
+              layoutAlgorithm: {
+                integration: "verlet",
+                // linkLength: 200,
+                // gravitationalConstant: 0.01, // Adjust as needed
+                // maxIterations: 1000,
+              },
+            },
+          },
+          tooltip: {
+            enabled: false,
+          },
+          series: [
+            {
+              showInLegend: false,
+              dataLabels: {
+                enabled: true,
+                useHTML: true,
+                verticalAlign: "middle",
+                align: "center",
+                linkFormat: "{point.fromNode.options.marketValue}",
+                allowOverlap: true,
+                formatter: function () {
+                  var logoUrl;
+                  var content;
+                  console.log(this, "thisthis");
+                  if (this.point.name === "Astrazeneca") {
+                    logoUrl =
+                      "https://www.vyopta.com/wp-content/uploads/2019/06/astrazeneca-PNG-logo.png";
+                  } else if (this.point.name === "Merck & Co") {
+                    logoUrl =
+                      "https://download.logo.wine/logo/Merck_%26_Co./Merck_%26_Co.-Logo.wine.png";
+                  } else if (this.point.name === "AbbVie") {
+                    logoUrl =
+                      "https://1000logos.net/wp-content/uploads/2023/03/AbbVie-logo.png";
+                  } else if (this.point.name === "Novartis") {
+                    logoUrl =
+                      "https://www.novartis.com/sites/novartis_com/files/styles/webp/public/2021-10/novartis-logo-transparent.png.webp?itok=-VFFv5qx";
+                  } else if (this.point.name === "Bristol-Myers Squibb") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Bristol-Myers_Squibb_logo_%282020%29.svg/1280px-Bristol-Myers_Squibb_logo_%282020%29.svg.png";
+                  } else if (this.point.name === "Johnson & Johnson") {
+                    logoUrl =
+                      "https://jnj-content-lab2.brightspotcdn.com/dims4/default/9849760/2147483647/strip/true/crop/499x374+0+63/resize/1005x753!/quality/90/?url=https%3A%2F%2Fjnj-production-jnj.s3.us-east-1.amazonaws.com%2Fbrightspot%2F9a%2F76%2Fbd7b1a4c104486eb82033ce4df92%2Flogo-130-x-130-1.png";
+                  } else if (this.point.name === "Pfizer") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/8/8b/Pfizer_%282021%29.png";
+                  } else if (this.point.name === "Bayer") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Logo_Bayer.svg/600px-Logo_Bayer.svg.png";
+                  } else if (this.point.name === "Sanofi") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/7/7d/Logo_Sanofi_%282022%29.png";
+                  } else if (this.point.name === "Amgen") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Amgen.svg/1200px-Amgen.svg.png";
+                  } else if (this.point.name === "BioNTech") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/BioNTech_Logo.png/1197px-BioNTech_Logo.png";
+                  } else if (this.point.name === "Boehringer Ingelheim") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Boehringer_Ingelheim_Logo.svg/2560px-Boehringer_Ingelheim_Logo.svg.png";
+                  } else if (this.point.name === "Eli Lilly") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Eli_Lilly_and_Company.svg/2560px-Eli_Lilly_and_Company.svg.png";
+                  } else if (this.point.name === "Gilead Sciences") {
+                    logoUrl =
+                      "https://download.logo.wine/logo/Gilead_Sciences/Gilead_Sciences-Logo.wine.png";
+                  } else if (this.point.name === "GSK") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/GSK_logo_2022.svg/2560px-GSK_logo_2022.svg.png";
+                  } else if (this.point.name === "Merck KGaA") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Logo_Merck_KGaA_2015.svg/1200px-Logo_Merck_KGaA_2015.svg.png";
+                  } else if (this.point.name === "Moderna") {
+                    logoUrl =
+                      "https://www.jdrf.org/wp-content/uploads/2020/04/Moderna-Logo-1200x800-1.jpg";
+                  } else if (this.point.name === "Novo Nordisk") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Novo_Nordisk_-_Logo.svg/1200px-Novo_Nordisk_-_Logo.svg.png";
+                  } else if (this.point.name === "Takeda Pharmaceutical") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Takeda_Pharmaceutical_Company_logo.svg/2560px-Takeda_Pharmaceutical_Company_logo.svg.png";
+                  } else if (this.point.name === "Roche") {
+                    logoUrl =
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hoffmann-La_Roche_logo.svg/2560px-Hoffmann-La_Roche_logo.svg.png";
+                  }
+
+                  if (logoUrl) {
+                    content =
+                      '<div class="logo-circle" style="background:white; z-index: 1000000;position: relative">' +
+                      '<img src="' +
+                      logoUrl +
+                      '" class="width: 45px; height: 45px;border-radius: 50px;  ' +
+                      (this.y - 10) +
+                      "px; left: " +
+                      (this.x - 10) +
+                      'px;">' +
+                      "</div>";
+                  }
+
+                  if (!logoUrl) {
+                    content =
+                      "<div style='margin-bottom: 40px;font-size: 10px;'>" +
+                      "<div style='max-width:80px; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 1;'>" +
+                      this.point.to +
+                      "</div>" +
+                      "<div style='display: flex;'>" +
+                      "<div>(" +
+                      this.point.partnership +
+                      ")</div>" +
+                      "</div>" +
+                      "</div>";
+                  }
+                  return content;
+                },
+              },
+              marker: {
+                symbol: "circle",
+              },
+              id: "lang-tree",
+              data: mapData,
+            },
+          ],
+        });
+      }
+    </script>
+  </body>
+</html>

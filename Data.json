@@ -1,0 +1,4853 @@
+  [
+    {
+      "to": 1,
+      "from": "Astrazeneca",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Gracell Biotechnologies",
+      "marketValue": 1200
+    },
+    {
+      "to": 2,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "Omniose",
+      "marketValue": "NA"
+    },
+    {
+      "to": 3,
+      "from": "Astrazeneca",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "Icosavax, Inc.",
+      "marketValue": 1100
+    },
+    {
+      "to": 4,
+      "from": "Astrazeneca",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "CinCor Pharma, Inc",
+      "marketValue": 1800
+    },
+    {
+      "to": 5,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Absci",
+      "marketValue": 247
+    },
+    {
+      "to": 6,
+      "from": "Astrazeneca",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Neogene Therapeutics",
+      "marketValue": 320
+    },
+    {
+      "to": 7,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene editing technology (TALEN based)",
+      "companyName": "Cellectis",
+      "marketValue": 245
+    },
+    {
+      "to": 8,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "Minimal residual disease (MRD) testing",
+      "companyName": "C2i Genomics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 9,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "AI-powered diagnostics",
+      "companyName": "Ibex Medical Analytics ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 10,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Hospital Bellvitge",
+      "marketValue": "NA"
+    },
+    {
+      "to": 11,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Verge Genomics",
+      "marketValue": 882
+    },
+    {
+      "to": 12,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "QuellTX",
+      "marketValue": 2085
+    },
+    {
+      "to": 13,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "LaNova Medicines",
+      "marketValue": 600
+    },
+    {
+      "to": 14,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Ascentage Pharma",
+      "marketValue": "NA"
+    },
+    {
+      "to": 15,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": " Implantable medical device",
+      "companyName": "Sernova Corp",
+      "marketValue": "NA"
+    },
+    {
+      "to": 16,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "Minimal residual disease (MRD) testing",
+      "companyName": "Personalis, Inc.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 17,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Protein degradation technology",
+      "companyName": "Cullgen Inc",
+      "marketValue": 35
+    },
+    {
+      "to": 18,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene editing technology (Pin-point based)",
+      "companyName": "Revvity",
+      "marketValue": "NA"
+    },
+    {
+      "to": 19,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Eccogene ",
+      "marketValue": 1985
+    },
+    {
+      "to": 20,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Cholesgen ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 21,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "AI-powered diagnostics",
+      "companyName": "Qure.ai",
+      "marketValue": "NA"
+    },
+    {
+      "to": 22,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": "Neuroscience Therapy",
+      "companyName": "JCR Pharmaceuticals Co., Ltd.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 23,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": " Implantable medical device",
+      "companyName": "Biora Therapeutics, Inc",
+      "marketValue": "NA"
+    },
+    {
+      "to": 24,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug manufacturing",
+      "modality": "Cell therapy",
+      "companyName": "AbelZeta Pharma",
+      "marketValue": "NA"
+    },
+    {
+      "to": 25,
+      "from": "Astrazeneca",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "TeneoTwo, Inc.",
+      "marketValue": 100
+    },
+    {
+      "to": 26,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Neurimmune",
+      "marketValue": 760
+    },
+    {
+      "to": 27,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Illumina Inc",
+      "marketValue": "NA"
+    },
+    {
+      "to": 28,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "RQ Biotechnology Ltd ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 29,
+      "from": "Astrazeneca",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology",
+      "modality": "Gene therapy",
+      "companyName": "LogicBio Therapeutics, Inc.",
+      "marketValue": 68
+    },
+    {
+      "to": 30,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "docdok.health",
+      "marketValue": "NA"
+    },
+    {
+      "to": 31,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Small molecule therapy",
+      "companyName": "Rgenta Therapeutics Inc",
+      "marketValue": 52
+    },
+    {
+      "to": 32,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Huma ",
+      "marketValue": 33
+    },
+    {
+      "to": 33,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Target Medicals LLC",
+      "marketValue": "NA"
+    },
+    {
+      "to": 34,
+      "from": "Astrazeneca",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Caelum Biosciences, Inc.",
+      "marketValue": 500
+    },
+    {
+      "to": 35,
+      "from": "Astrazeneca",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Alexion Pharmaceuticals, Inc.",
+      "marketValue": 3900
+    },
+    {
+      "to": 36,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Ionis",
+      "marketValue": 3.585
+    },
+    {
+      "to": 37,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "VaxEquity",
+      "marketValue": "NA"
+    },
+    {
+      "to": 38,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Accent Therapeutics",
+      "marketValue": 55
+    },
+    {
+      "to": 39,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Silence Therapeutics",
+      "marketValue": 470
+    },
+    {
+      "to": 40,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Minimal residual disease (MRD) testing",
+      "companyName": "ArcherDX",
+      "marketValue": "NA"
+    },
+    {
+      "to": 41,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Dogma Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 42,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Daiichi Sankyo Company, Limited",
+      "marketValue": 6000
+    },
+    {
+      "to": 43,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "BenevolentAI ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 44,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Aptamer Group",
+      "marketValue": "NA"
+    },
+    {
+      "to": 45,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Cancer Research UK",
+      "marketValue": "NA"
+    },
+    {
+      "to": 46,
+      "from": "Astrazeneca",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Innate Pharma SA",
+      "marketValue": 875
+    },
+    {
+      "to": 47,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "IGI Research",
+      "marketValue": "NA"
+    },
+    {
+      "to": 48,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Pelago Bioscience",
+      "marketValue": "NA"
+    },
+    {
+      "to": 49,
+      "from": "Astrazeneca",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Yiviva ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 50,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Harpoon Therapeutics",
+      "marketValue": 680
+    },
+    {
+      "to": 51,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Lava Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 52,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Evaxion Biotech",
+      "marketValue": 5.29
+    },
+    {
+      "to": 53,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Caraway Therapeutics",
+      "marketValue": 610
+    },
+    {
+      "to": 54,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Prometheus Biosciences",
+      "marketValue": 10800
+    },
+    {
+      "to": 55,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Triumvira Immunologics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 56,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Phanes Therapeutics, Inc",
+      "marketValue": "NA"
+    },
+    {
+      "to": 57,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "IRBM",
+      "marketValue": "NA"
+    },
+    {
+      "to": 58,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "HiberCell, Inc.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 59,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "BJ Bioscience, Inc.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 60,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "VectorY Therapeutics",
+      "marketValue": 140
+    },
+    {
+      "to": 61,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Philogen S.p.A",
+      "marketValue": "NA"
+    },
+    {
+      "to": 62,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Daiichi Sankyo Company, Limited",
+      "marketValue": 5500
+    },
+    {
+      "to": 63,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "AI-powered diagnostics",
+      "companyName": "Owkin",
+      "marketValue": "NA"
+    },
+    {
+      "to": 64,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Proxygen ",
+      "marketValue": 2550
+    },
+    {
+      "to": 65,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Imago BioSciences",
+      "marketValue": 1350
+    },
+    {
+      "to": 66,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Kelun Biotech",
+      "marketValue": 9475
+    },
+    {
+      "to": 67,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "RNA Therapeutics",
+      "companyName": "Orna Therapeutics",
+      "marketValue": 153.6
+    },
+    {
+      "to": 68,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Syapse",
+      "marketValue": "NA"
+    },
+    {
+      "to": 69,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Cytokine based therapeutics",
+      "companyName": "TILT Biotherapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 70,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Acceleron Pharma Inc.",
+      "marketValue": 11500
+    },
+    {
+      "to": 71,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Pandion Therapeutics, Inc.",
+      "marketValue": 1850
+    },
+    {
+      "to": 72,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "NGM Biopharmaceuticals",
+      "marketValue": 120
+    },
+    {
+      "to": 73,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Carisma Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 74,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Gilead ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 75,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "OncoSec Medical",
+      "marketValue": "NA"
+    },
+    {
+      "to": 76,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cytokine based therapeutics",
+      "companyName": "Synthekine Inc.",
+      "marketValue": 525
+    },
+    {
+      "to": 77,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "PDS Biotechnology Corp.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 78,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Xeris Pharmaceuticals",
+      "marketValue": 50
+    },
+    {
+      "to": 79,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "OncoImmune, Inc.",
+      "marketValue": 475
+    },
+    {
+      "to": 80,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "Themis Bio Holdings LLC",
+      "marketValue": "NA"
+    },
+    {
+      "to": 81,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "VelosBio Inc.",
+      "marketValue": 2750
+    },
+    {
+      "to": 82,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "A2 Bio",
+      "marketValue": "NA"
+    },
+    {
+      "to": 83,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Yumanity Therapeutics\n(Kineta)",
+      "marketValue": 500
+    },
+    {
+      "to": 84,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "ArQule",
+      "marketValue": 2700
+    },
+    {
+      "to": 85,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Ridgeback Biotherapeutics LP",
+      "marketValue": "NA"
+    },
+    {
+      "to": 86,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Astex Pharmaceuticals ",
+      "marketValue": 535
+    },
+    {
+      "to": 87,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Hanmi Pharmaceutical",
+      "marketValue": 870
+    },
+    {
+      "to": 88,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "Bill & Melinda Gates Foundation",
+      "marketValue": "NA"
+    },
+    {
+      "to": 89,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Calporta Therapeutics, Inc.",
+      "marketValue": 576
+    },
+    {
+      "to": 90,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology",
+      "modality": "Cell therapy",
+      "companyName": "Immune Design Corp.",
+      "marketValue": 300
+    },
+    {
+      "to": 91,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Cytokine based therapeutics",
+      "companyName": "Tilos Therapeutics, Inc.",
+      "marketValue": 773
+    },
+    {
+      "to": 92,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Microbiome-based therapies",
+      "companyName": "4D pharma",
+      "marketValue": 341
+    },
+    {
+      "to": 93,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Peloton Therapeutics",
+      "marketValue": 1150
+    },
+    {
+      "to": 94,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Targeted Alpha Therapies (TATs)",
+      "companyName": "Fusion Pharmaceuticals",
+      "marketValue": "NA"
+    },
+    {
+      "to": 95,
+      "from": "Merck & Co.",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Viralytics Limited",
+      "marketValue": 394
+    },
+    {
+      "to": 96,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "ImaginAb",
+      "marketValue": "NA"
+    },
+    {
+      "to": 97,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Combination Therapy",
+      "companyName": "Eisai",
+      "marketValue": 5700
+    },
+    {
+      "to": 98,
+      "from": "Merck & Co.",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "Instituto Butantan",
+      "marketValue": "NA"
+    },
+    {
+      "to": 99,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Moderna Therapeutics ",
+      "marketValue": 125
+    },
+    {
+      "to": 100,
+      "from": "AbbVie",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Multiple modalities ",
+      "companyName": "Allergan",
+      "marketValue": 63000
+    },
+    {
+      "to": 101,
+      "from": "AbbVie",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Mitokinin",
+      "marketValue": 655
+    },
+    {
+      "to": 102,
+      "from": "AbbVie",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "ImmunoGen",
+      "marketValue": 10100
+    },
+    {
+      "to": 103,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Tissue engineering",
+      "companyName": "BioMed X Institute",
+      "marketValue": "NA"
+    },
+    {
+      "to": 104,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Calico Life Sciences",
+      "marketValue": 1000
+    },
+    {
+      "to": 105,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Genomics analysis",
+      "companyName": "M42",
+      "marketValue": "NA"
+    },
+    {
+      "to": 106,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Jacobio Pharmaceuticals",
+      "marketValue": "NA"
+    },
+    {
+      "to": 107,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Umoja Biopharma",
+      "marketValue": 1440
+    },
+    {
+      "to": 108,
+      "from": "AbbVie",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "Caribou Biosciences",
+      "marketValue": 340
+    },
+    {
+      "to": 109,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Regenxbio",
+      "marketValue": 1750
+    },
+    {
+      "to": 110,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene Therapy",
+      "companyName": "Capsida Biotherapeutics Inc.",
+      "marketValue": 665
+    },
+    {
+      "to": 111,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Voyager Therapeutics",
+      "marketValue": 224
+    },
+    {
+      "to": 112,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Atomwise",
+      "marketValue": 123
+    },
+    {
+      "to": 113,
+      "from": "AbbVie",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "DJS Antibodies",
+      "marketValue": 255
+    },
+    {
+      "to": 114,
+      "from": "AbbVie",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Mavupharma",
+      "marketValue": "NA"
+    },
+    {
+      "to": 115,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Scripps Research",
+      "marketValue": "NA"
+    },
+    {
+      "to": 116,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Targeted Protein Degradation",
+      "companyName": "Frontier Medicines",
+      "marketValue": "NA"
+    },
+    {
+      "to": 117,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Leukemia & Lymphoma Society",
+      "marketValue": "NA"
+    },
+    {
+      "to": 118,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "HotSpot Therapeutics",
+      "marketValue": 335
+    },
+    {
+      "to": 119,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "BigHat Biosciences",
+      "marketValue": 355
+    },
+    {
+      "to": 120,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "AI in clinical trials",
+      "companyName": "Caris Life Sciences and ConcertAI",
+      "marketValue": "NA"
+    },
+    {
+      "to": 121,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Targeted Protein Degradation",
+      "companyName": "I-Mab",
+      "marketValue": 1940
+    },
+    {
+      "to": 122,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Cugene Inc.",
+      "marketValue": 48.5
+    },
+    {
+      "to": 123,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "AbCellera Biologics Inc.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 124,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Morphic Therapeutic",
+      "marketValue": 100
+    },
+    {
+      "to": 125,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Disco Pharmaceuticals",
+      "marketValue": 22
+    },
+    {
+      "to": 126,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Multiple modalities ",
+      "companyName": "Calibr",
+      "marketValue": "NA"
+    },
+    {
+      "to": 127,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Anima Biotech",
+      "marketValue": 582
+    },
+    {
+      "to": 128,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug Delivery Technology",
+      "modality": "Therapeutic devices",
+      "companyName": "Lyndra Therapeutics",
+      "marketValue": 101
+    },
+    {
+      "to": 129,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Lupin",
+      "marketValue": 30
+    },
+    {
+      "to": 130,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Immunome",
+      "marketValue": "NA"
+    },
+    {
+      "to": 131,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Caraway Therapeutics",
+      "marketValue": 267
+    },
+    {
+      "to": 132,
+      "from": "AbbVie",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Cerevel Therapeutics",
+      "marketValue": 8700
+    },
+    {
+      "to": 133,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Therapeutic devices",
+      "companyName": "iSTAR Medical",
+      "marketValue": 535
+    },
+    {
+      "to": 134,
+      "from": "AbbVie",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Syndesi Therapeutics",
+      "marketValue": 1000
+    },
+    {
+      "to": 135,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Bispecific antibodies",
+      "companyName": "Teneobio Inc. ",
+      "marketValue": 90
+    },
+    {
+      "to": 136,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Kojin TX",
+      "marketValue": 60
+    },
+    {
+      "to": 137,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Tizona Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 138,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Galapagos (cystic fibrosis pipeline)",
+      "marketValue": 45
+    },
+    {
+      "to": 139,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "ArgenX",
+      "marketValue": 625
+    },
+    {
+      "to": 140,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Accent Therapeutics",
+      "marketValue": 63
+    },
+    {
+      "to": 141,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Targeted Protein Degradation",
+      "companyName": "Ambagon Therapeutics",
+      "marketValue": 85
+    },
+    {
+      "to": 142,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Artios Pharma Limited",
+      "marketValue": 84
+    },
+    {
+      "to": 143,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Enthera Pharmaceuticals",
+      "marketValue": 38.5
+    },
+    {
+      "to": 144,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small Molecule Therapy",
+      "companyName": "Jnana Therapeutics",
+      "marketValue": 50
+    },
+    {
+      "to": 145,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Nitrase Therapeutics (previously Nitrome Biosciences)",
+      "marketValue": 38
+    },
+    {
+      "to": 146,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Glyco-immunology based therapeutics",
+      "companyName": "Palleon Pharmaceuticals",
+      "marketValue": 100
+    },
+    {
+      "to": 147,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Quanta Therapeutics",
+      "marketValue": 50
+    },
+    {
+      "to": 148,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Ribometrix",
+      "marketValue": 30
+    },
+    {
+      "to": 149,
+      "from": "AbbVie",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Therapeutic devices",
+      "companyName": "Stemson Therapeutics",
+      "marketValue": 15
+    },
+    {
+      "to": 150,
+      "from": "AbbVie",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Trishula Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 151,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Unnatural Products",
+      "marketValue": 32
+    },
+    {
+      "to": 152,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Aitia ",
+      "marketValue": 28
+    },
+    {
+      "to": 153,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "ClearDATA",
+      "marketValue": 26
+    },
+    {
+      "to": 154,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Clinithink",
+      "marketValue": "NA"
+    },
+    {
+      "to": 155,
+      "from": "Merck & Co.",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Pragma Bio",
+      "marketValue": 10
+    },
+    {
+      "to": 156,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Center for Biologics Technical Development",
+      "marketValue": 122
+    },
+    {
+      "to": 157,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Chinook Therapeutics",
+      "marketValue": 3500
+    },
+    {
+      "to": 158,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Xiidra",
+      "marketValue": 5300
+    },
+    {
+      "to": 159,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Pfizer",
+      "marketValue": "NA"
+    },
+    {
+      "to": 160,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Dawn Health",
+      "marketValue": "NA"
+    },
+    {
+      "to": 161,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Alnylam Pharmaceuticals",
+      "marketValue": "NA"
+    },
+    {
+      "to": 162,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Drugs for Neglected Diseases initiative",
+      "marketValue": "NA"
+    },
+    {
+      "to": 163,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug manufacturing",
+      "modality": "Cell therapy",
+      "companyName": "CellforCure",
+      "marketValue": "NA"
+    },
+    {
+      "to": 164,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "University of Pennsylvania",
+      "marketValue": "NA"
+    },
+    {
+      "to": 165,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Gyroscope Therapeutics",
+      "marketValue": 1500
+    },
+    {
+      "to": 166,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "AveXis, Inc.",
+      "marketValue": 8700
+    },
+    {
+      "to": 167,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Vedere Bio",
+      "marketValue": 280
+    },
+    {
+      "to": 168,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Bill & Melinda Gates Foundation",
+      "marketValue": "NA"
+    },
+    {
+      "to": 169,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Voyager Therapeutics",
+      "marketValue": 1200
+    },
+    {
+      "to": 170,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Sangamo Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 171,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "AI in clinical trials",
+      "companyName": "Yseop",
+      "marketValue": "NA"
+    },
+    {
+      "to": 172,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Isomorphic Labs",
+      "marketValue": 37.5
+    },
+    {
+      "to": 173,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "BioCurate Pty Ltd",
+      "marketValue": "NA"
+    },
+    {
+      "to": 174,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Koneksa",
+      "marketValue": 45
+    },
+    {
+      "to": 175,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Calypso Biotech BV",
+      "marketValue": 425
+    },
+    {
+      "to": 176,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "AI in clinical trials",
+      "companyName": "University of Oxford",
+      "marketValue": "NA"
+    },
+    {
+      "to": 177,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "BeiGene",
+      "marketValue": 2895
+    },
+    {
+      "to": 178,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Mesoblast Ltd.",
+      "marketValue": 50
+    },
+    {
+      "to": 179,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "DTx Pharm",
+      "marketValue": 500
+    },
+    {
+      "to": 180,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Radiopharmaceutical therapy",
+      "companyName": "Bicycle Therapeutics",
+      "marketValue": 1750
+    },
+    {
+      "to": 181,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug manufacturing",
+      "modality": "Cell therapy",
+      "companyName": "Fraunhofer IZI",
+      "marketValue": "NA"
+    },
+    {
+      "to": 182,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug Delivery Technology",
+      "modality": "Therapeutic devices",
+      "companyName": "Credence MedSystems",
+      "marketValue": "NA"
+    },
+    {
+      "to": 183,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug Delivery Technology",
+      "modality": "Therapeutic devices",
+      "companyName": "Kedalion Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 184,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "AbCellera Biologics Inc.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 185,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "The Medicines Company",
+      "marketValue": 9700
+    },
+    {
+      "to": 186,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Digital health tool",
+      "companyName": "Microsoft",
+      "marketValue": "NA"
+    },
+    {
+      "to": 187,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "UCB",
+      "marketValue": 1650
+    },
+    {
+      "to": 188,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Digital health tool",
+      "companyName": "Octave Bioscience",
+      "marketValue": 30
+    },
+    {
+      "to": 189,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug manufacturing",
+      "modality": "Precision Therapeutics ",
+      "companyName": "The University of Manchester",
+      "marketValue": 3.5
+    },
+    {
+      "to": 190,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug manufacturing",
+      "modality": "Cell therapy",
+      "companyName": "Carisma Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 191,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Gene Editing Technologies (CRISPR)",
+      "companyName": "Precision BioSciences",
+      "marketValue": 1475
+    },
+    {
+      "to": 192,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Elsevier",
+      "marketValue": "NA"
+    },
+    {
+      "to": 193,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Becton, Dickinson and Company",
+      "marketValue": "NA"
+    },
+    {
+      "to": 194,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Celcuity",
+      "marketValue": "NA"
+    },
+    {
+      "to": 195,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "SanReno Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 196,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Avrobio",
+      "marketValue": 87.5
+    },
+    {
+      "to": 197,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Flare Therapeutics",
+      "marketValue": 123
+    },
+    {
+      "to": 198,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Digital health tool",
+      "companyName": "Deciphex",
+      "marketValue": 11.5
+    },
+    {
+      "to": 199,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Holmusk",
+      "marketValue": 45
+    },
+    {
+      "to": 200,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Orionis Biosciences",
+      "marketValue": "NA"
+    },
+    {
+      "to": 201,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Radiopharmaceutical therapy",
+      "companyName": "Aktis Oncology",
+      "marketValue": 72
+    },
+    {
+      "to": 202,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "AI-powered diagnostics",
+      "companyName": "Cleerly",
+      "marketValue": 223
+    },
+    {
+      "to": 203,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Therapeutics for Food allergy",
+      "companyName": "Alladapt Immunotherapeutics",
+      "marketValue": 119
+    },
+    {
+      "to": 204,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Dunad Therapeutics",
+      "marketValue": 1324
+    },
+    {
+      "to": 205,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Arctos Medical",
+      "marketValue": "NA"
+    },
+    {
+      "to": 206,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Genomics analysis",
+      "companyName": "SomaLogic",
+      "marketValue": "NA"
+    },
+    {
+      "to": 207,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Non-invasive healthcare devices",
+      "companyName": "Dopavision",
+      "marketValue": 13.2
+    },
+    {
+      "to": 208,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Cadent Therapeutics",
+      "marketValue": 770
+    },
+    {
+      "to": 209,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "TScan Therapeutics",
+      "marketValue": 30
+    },
+    {
+      "to": 210,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Aspen RxHealth",
+      "marketValue": 23
+    },
+    {
+      "to": 211,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Molecular Partners",
+      "marketValue": 241.5
+    },
+    {
+      "to": 212,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Pliant Therapeutics",
+      "marketValue": 80
+    },
+    {
+      "to": 213,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Digital health tool",
+      "companyName": "Amblyotech",
+      "marketValue": "NA"
+    },
+    {
+      "to": 214,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Forendo Pharma",
+      "marketValue": "NA"
+    },
+    {
+      "to": 215,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug Delivery Technology",
+      "modality": "Therapeutic devices",
+      "companyName": "SiO2 Medical Products",
+      "marketValue": "NA"
+    },
+    {
+      "to": 216,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Iconic Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 217,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Xealth",
+      "marketValue": 11
+    },
+    {
+      "to": 218,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Ayala Pharmaceuticals",
+      "marketValue": 10
+    },
+    {
+      "to": 219,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "IFM Tre",
+      "marketValue": 1575
+    },
+    {
+      "to": 220,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Anthos Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 221,
+      "from": "Novartis",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Radiopharmaceutical therapy",
+      "companyName": "Endocyte",
+      "marketValue": 2100
+    },
+    {
+      "to": 222,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "RxLightning",
+      "marketValue": 17.5
+    },
+    {
+      "to": 223,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Pear Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 224,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Enterprise Therapeutics",
+      "marketValue": 33.1
+    },
+    {
+      "to": 225,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Therapeutics for Food allergy",
+      "companyName": "Aravax",
+      "marketValue": 42
+    },
+    {
+      "to": 226,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Hyku Biosciences",
+      "marketValue": 56
+    },
+    {
+      "to": 227,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "FORE Biotherapeutics",
+      "marketValue": 75
+    },
+    {
+      "to": 228,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Tagworks Pharmaceuticals",
+      "marketValue": 65
+    },
+    {
+      "to": 229,
+      "from": "Novartis",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Oculis",
+      "marketValue": "NA"
+    },
+    {
+      "to": 230,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Catalym",
+      "marketValue": 49
+    },
+    {
+      "to": 231,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Capstan Therapeutics",
+      "marketValue": 165
+    },
+    {
+      "to": 232,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "SpliceBio",
+      "marketValue": 55
+    },
+    {
+      "to": 233,
+      "from": "Novartis",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Epsilogen",
+      "marketValue": 40.9
+    },
+    {
+      "to": 234,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "VantAI",
+      "marketValue": 674
+    },
+    {
+      "to": 235,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Mirati Therapeutics",
+      "marketValue": 5800
+    },
+    {
+      "to": 236,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Karuna Therapeutics",
+      "marketValue": 14000
+    },
+    {
+      "to": 237,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "MEDiC Life Sciences",
+      "marketValue": "NA"
+    },
+    {
+      "to": 238,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Karyopharm Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 239,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Radiopharmaceutical therapy",
+      "companyName": "Ratio Therapeutics",
+      "marketValue": 50
+    },
+    {
+      "to": 240,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Avidity Biosciences",
+      "marketValue": 2300
+    },
+    {
+      "to": 241,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Radiopharmaceutical therapy",
+      "companyName": "RayzeBio",
+      "marketValue": 4100
+    },
+    {
+      "to": 242,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "EvolveImmune Therapeutics",
+      "marketValue": 37
+    },
+    {
+      "to": 243,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Q32 Bio",
+      "marketValue": 42
+    },
+    {
+      "to": 244,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "in vitro diagnostic (IVD) genome testing",
+      "companyName": "Precede Biosciences ",
+      "marketValue": 57
+    },
+    {
+      "to": 245,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Terray Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 246,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Bispecific antibodies",
+      "companyName": "Zenas BioPharma ",
+      "marketValue": 50
+    },
+    {
+      "to": 247,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Orum Therapeutics",
+      "marketValue": 280
+    },
+    {
+      "to": 248,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Tubulis",
+      "marketValue": 1022.75
+    },
+    {
+      "to": 249,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "CHARM Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 250,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug manufacturing",
+      "modality": " Automated drug manufacturing technology",
+      "companyName": "Cellares",
+      "marketValue": 255
+    },
+    {
+      "to": 251,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Immatics",
+      "marketValue": 760
+    },
+    {
+      "to": 252,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "GentiBio",
+      "marketValue": 1900
+    },
+    {
+      "to": 253,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Volastra Therapeutics",
+      "marketValue": 1130
+    },
+    {
+      "to": 254,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Envisagenics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 255,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Targeted Protein Degradation",
+      "companyName": "SyntheX",
+      "marketValue": 550
+    },
+    {
+      "to": 256,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Century Therapeutics",
+      "marketValue": 3150
+    },
+    {
+      "to": 257,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "AI in clinical trials",
+      "companyName": "Paradigm",
+      "marketValue": "NA"
+    },
+    {
+      "to": 258,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "K36 Therapeutics",
+      "marketValue": 70
+    },
+    {
+      "to": 259,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug Delivery Technology",
+      "modality": "Gene delivery vehicles ",
+      "companyName": "iVexSol",
+      "marketValue": 23.8
+    },
+    {
+      "to": 260,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "Metagenomi Technologies",
+      "marketValue": 175
+    },
+    {
+      "to": 261,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Cajal Neuroscience",
+      "marketValue": 96
+    },
+    {
+      "to": 262,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "ArsenalBio",
+      "marketValue": 220
+    },
+    {
+      "to": 263,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Autobahn Therapeutics",
+      "marketValue": 32.7
+    },
+    {
+      "to": 264,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Turning Point Therapeutics",
+      "marketValue": 4100
+    },
+    {
+      "to": 265,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "BigHat Biosciences",
+      "marketValue": 75
+    },
+    {
+      "to": 266,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "AI in clinical trials",
+      "companyName": "Owkin",
+      "marketValue": 180
+    },
+    {
+      "to": 267,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Transition Bio",
+      "marketValue": 50
+    },
+    {
+      "to": 268,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Sapience Therapeutics",
+      "marketValue": 41
+    },
+    {
+      "to": 269,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Nuvig Therapeutics",
+      "marketValue": 47
+    },
+    {
+      "to": 270,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Octant Bio",
+      "marketValue": 80
+    },
+    {
+      "to": 271,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Engineered B Cell Medicines (BeCM)",
+      "companyName": "Be Biopharma",
+      "marketValue": 130
+    },
+    {
+      "to": 272,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Ceptur Therapeutics",
+      "marketValue": 75
+    },
+    {
+      "to": 273,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Compugen",
+      "marketValue": 20
+    },
+    {
+      "to": 274,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Targeted Protein Degradation",
+      "companyName": "GlycoEra",
+      "marketValue": "NA"
+    },
+    {
+      "to": 275,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Nitrase Therapeutics",
+      "marketValue": 45
+    },
+    {
+      "to": 276,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Treefrog Therapeutics",
+      "marketValue": 75
+    },
+    {
+      "to": 277,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Obsidian Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 278,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Cardior",
+      "marketValue": 76
+    },
+    {
+      "to": 279,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "IMIDomics",
+      "marketValue": 16.5
+    },
+    {
+      "to": 280,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience Therapy",
+      "companyName": "Allyx Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 281,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "HiberCell, Inc.",
+      "marketValue": 67.4
+    },
+    {
+      "to": 282,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Exscientia",
+      "marketValue": 1375
+    },
+    {
+      "to": 283,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Akamis Bio",
+      "marketValue": "NA"
+    },
+    {
+      "to": 284,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "MyoKardia",
+      "marketValue": 13100
+    },
+    {
+      "to": 285,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Galecto",
+      "marketValue": 64
+    },
+    {
+      "to": 286,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Forbius",
+      "marketValue": "NA"
+    },
+    {
+      "to": 287,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Biotechnology ",
+      "modality": "Digital health tool",
+      "companyName": "SyncSense",
+      "marketValue": "NA"
+    },
+    {
+      "to": 288,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Repare Therapeutics",
+      "marketValue": 65
+    },
+    {
+      "to": 289,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Silverback Therapeutics",
+      "marketValue": 78.5
+    },
+    {
+      "to": 290,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Celgene",
+      "marketValue": 7400
+    },
+    {
+      "to": 291,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Alpha Cancer Technologies",
+      "marketValue": "NA"
+    },
+    {
+      "to": 292,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Vedanta Biosciences ",
+      "marketValue": 18.5
+    },
+    {
+      "to": 293,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Ayala Pharmaceuticals",
+      "marketValue": 17
+    },
+    {
+      "to": 294,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Enterome",
+      "marketValue": 38.5
+    },
+    {
+      "to": 295,
+      "from": "Bristol-Myers Squibb",
+      "partnership": "Investment",
+      "sector": "Biotechnology ",
+      "modality": "in vitro diagnostic (IVD) genome testing",
+      "companyName": "Personal Genome Diagnostics",
+      "marketValue": 75
+    },
+    {
+      "to": 296,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Ambrx",
+      "marketValue": 2000
+    },
+    {
+      "to": 297,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience therapy",
+      "companyName": "Arkuda Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 298,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug Delivery Technology",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Elektrofi",
+      "marketValue": 173
+    },
+    {
+      "to": 299,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Minimal residual disease (MRD) testing",
+      "companyName": "Illumina Inc",
+      "marketValue": "NA"
+    },
+    {
+      "to": 300,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": " Nanotherapeutics",
+      "companyName": "Nanobiotix",
+      "marketValue": 1830
+    },
+    {
+      "to": 301,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Intraoperative molecular imaging",
+      "companyName": "On Target Laboratories",
+      "marketValue": 30
+    },
+    {
+      "to": 302,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Aro Biotherapeutics",
+      "marketValue": 41.5
+    },
+    {
+      "to": 303,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Intelligent OMICS Ltd.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 304,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "LAVA Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 305,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug manufacturing",
+      "modality": " Automated drug manufacturing technology",
+      "companyName": "Astraveus",
+      "marketValue": 18.1
+    },
+    {
+      "to": 306,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Robotic surgery",
+      "companyName": "Moon Surgical",
+      "marketValue": 55.4
+    },
+    {
+      "to": 307,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Non-invasive healthcare devices",
+      "companyName": "Solenic Medical ",
+      "marketValue": 5.1
+    },
+    {
+      "to": 308,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "ID Pharma",
+      "marketValue": "NA"
+    },
+    {
+      "to": 309,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience therapy",
+      "companyName": "Contineum Therapeutics\n(Before named as Pipeline therapeutics)",
+      "marketValue": 1100
+    },
+    {
+      "to": 310,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience therapy",
+      "companyName": "Rapport Therapeutics",
+      "marketValue": 150
+    },
+    {
+      "to": 311,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Biocytogen Pharmaceuticals",
+      "marketValue": "NA"
+    },
+    {
+      "to": 312,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "AI-powered diagnostics",
+      "companyName": "ArteraAI",
+      "marketValue": 90
+    },
+    {
+      "to": 313,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Non-invasive healthcare devices",
+      "companyName": "Prana Thoracic",
+      "marketValue": 3
+    },
+    {
+      "to": 314,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "MeiraGTx",
+      "marketValue": 415
+    },
+    {
+      "to": 315,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "LegoChem Biosciences",
+      "marketValue": 1800
+    },
+    {
+      "to": 316,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Mersana Therapeutics",
+      "marketValue": 1040
+    },
+    {
+      "to": 317,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology ",
+      "modality": "Therapeutic devices",
+      "companyName": "Abiomed",
+      "marketValue": 16600
+    },
+    {
+      "to": 318,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Non-invasive healthcare devices",
+      "companyName": "HistoSonics",
+      "marketValue": 85
+    },
+    {
+      "to": 319,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Osteal Therapeutics",
+      "marketValue": 30
+    },
+    {
+      "to": 320,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "WuXi Advanced Therapies",
+      "marketValue": "NA"
+    },
+    {
+      "to": 321,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "AI-powered diagnostics",
+      "companyName": "Paige",
+      "marketValue": "NA"
+    },
+    {
+      "to": 322,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Serotiny",
+      "marketValue": "NA"
+    },
+    {
+      "to": 323,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Hangzhou DAC Biotechnology",
+      "marketValue": "NA"
+    },
+    {
+      "to": 324,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Biotechnology ",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "Locus Biosciences",
+      "marketValue": 35
+    },
+    {
+      "to": 325,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "VantAI",
+      "marketValue": "NA"
+    },
+    {
+      "to": 326,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": " Neuroscience Therapy",
+      "companyName": "Bioasis Technologies",
+      "marketValue": "NA"
+    },
+    {
+      "to": 327,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Bispecific antibodies",
+      "companyName": "Rondo Therapeutics",
+      "marketValue": 67
+    },
+    {
+      "to": 328,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Remix Therapeutics",
+      "marketValue": 1045
+    },
+    {
+      "to": 329,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "VerImmune",
+      "marketValue": "NA"
+    },
+    {
+      "to": 330,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Anakuria Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 331,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "AI in clinical trials",
+      "companyName": "Iterative Scopes ",
+      "marketValue": 150
+    },
+    {
+      "to": 332,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": "Intranasal spray medications ",
+      "companyName": "Leyden Labs",
+      "marketValue": "NA"
+    },
+    {
+      "to": 333,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": "Ionic liquid technology",
+      "companyName": "i2o Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 334,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "SRI International",
+      "marketValue": "NA"
+    },
+    {
+      "to": 335,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "TRexBio",
+      "marketValue": 59
+    },
+    {
+      "to": 336,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "AI in clinical trials",
+      "companyName": "Verana Health",
+      "marketValue": 150
+    },
+    {
+      "to": 337,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology ",
+      "modality": "Therapeutic devices",
+      "companyName": "CrossRoads Extremity Systems",
+      "marketValue": "NA"
+    },
+    {
+      "to": 338,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience therapy",
+      "companyName": "AviadoBio",
+      "marketValue": 80
+    },
+    {
+      "to": 339,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Philogen ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 340,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "AI-powered diagnostics",
+      "companyName": "Ultromics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 341,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Active pharmaceutical ingredients (APIs)",
+      "companyName": "entrinsic bioscience",
+      "marketValue": 49
+    },
+    {
+      "to": 342,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Thirty Madison",
+      "marketValue": 140
+    },
+    {
+      "to": 343,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Digital health tool",
+      "companyName": "Cue Health",
+      "marketValue": 235
+    },
+    {
+      "to": 344,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antiviral Conjugates (AVCs)",
+      "companyName": "Cidara Therapeutics",
+      "marketValue": 780
+    },
+    {
+      "to": 345,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "AI-powered diagnostics",
+      "companyName": "Techsomed",
+      "marketValue": 7
+    },
+    {
+      "to": 346,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Evolve BioSystems",
+      "marketValue": 55
+    },
+    {
+      "to": 347,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Morphic Therapeutic",
+      "marketValue": "NA"
+    },
+    {
+      "to": 348,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Bispecific antibodies",
+      "companyName": "Revitope Oncology ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 349,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Bispecific antibodies",
+      "companyName": "Xencor",
+      "marketValue": 1313
+    },
+    {
+      "to": 350,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Persephone Biosciences",
+      "marketValue": "NA"
+    },
+    {
+      "to": 351,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Mestag Therapeutics ",
+      "marketValue": 45
+    },
+    {
+      "to": 352,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Therapeutic devices",
+      "companyName": "OrthoSpin ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 353,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "ONL Therapeutics",
+      "marketValue": 61.9
+    },
+    {
+      "to": 354,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "MacroGenics",
+      "marketValue": 332
+    },
+    {
+      "to": 355,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug manufacturing",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "CHO Plus",
+      "marketValue": "NA"
+    },
+    {
+      "to": 356,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Symvivo Corporation",
+      "marketValue": "NA"
+    },
+    {
+      "to": 357,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Koa Health",
+      "marketValue": "NA"
+    },
+    {
+      "to": 358,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "ImmPACT Bio",
+      "marketValue": 18
+    },
+    {
+      "to": 359,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Dermala",
+      "marketValue": 6.73
+    },
+    {
+      "to": 360,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Datavant",
+      "marketValue": 40
+    },
+    {
+      "to": 361,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Therapeutic devices",
+      "companyName": "V-Wave",
+      "marketValue": 98
+    },
+    {
+      "to": 362,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Therapeutic devices",
+      "companyName": "GI Windows Medical Corp",
+      "marketValue": 16.4
+    },
+    {
+      "to": 363,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Neuroscience therapy",
+      "companyName": "XWPharma",
+      "marketValue": 40
+    },
+    {
+      "to": 364,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Aetion",
+      "marketValue": 19
+    },
+    {
+      "to": 365,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Envisagenics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 366,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Radiopharmaceutical therapy",
+      "companyName": "RefleXion",
+      "marketValue": 100
+    },
+    {
+      "to": 367,
+      "from": "Johnson & Johnson",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Exonate",
+      "marketValue": "NA"
+    },
+    {
+      "to": 368,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "ConcertAI",
+      "marketValue": "NA"
+    },
+    {
+      "to": 369,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Vor Biopharma",
+      "marketValue": 110
+    },
+    {
+      "to": 370,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": " Implantable medical device",
+      "companyName": "CVRx®",
+      "marketValue": 50
+    },
+    {
+      "to": 371,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Hemera Biosciences ",
+      "marketValue": "NA"
+    },
+    {
+      "to": 372,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Momenta Pharmaceuticals",
+      "marketValue": 6500
+    },
+    {
+      "to": 373,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology ",
+      "modality": "Therapeutic devices",
+      "companyName": "Verb Surgical",
+      "marketValue": "NA"
+    },
+    {
+      "to": 374,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Drug Delivery Technology",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Taris Biomedical",
+      "marketValue": "NA"
+    },
+    {
+      "to": 375,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology ",
+      "modality": "Robotic surgery",
+      "companyName": "Auris",
+      "marketValue": 5750
+    },
+    {
+      "to": 376,
+      "from": "Johnson & Johnson",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Holobiome",
+      "marketValue": "NA"
+    },
+    {
+      "to": 377,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology ",
+      "modality": "Therapeutic devices",
+      "companyName": "Emerging Implant Technologies (EIT)",
+      "marketValue": "NA"
+    },
+    {
+      "to": 378,
+      "from": "Johnson & Johnson",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology ",
+      "modality": "Robotic surgery",
+      "companyName": "Orthotaxy",
+      "marketValue": "NA"
+    },
+    {
+      "to": 379,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Biohaven Pharmaceutical Holding Company Ltd.",
+      "marketValue": 11600
+    },
+    {
+      "to": 380,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Seagen",
+      "marketValue": 43000
+    },
+    {
+      "to": 381,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "BioNTech",
+      "marketValue": 748
+    },
+    {
+      "to": 382,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "Caribou Biosciences",
+      "marketValue": 25
+    },
+    {
+      "to": 383,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Cell therapy",
+      "companyName": "Caribou Biosciences",
+      "marketValue": 25
+    },
+    {
+      "to": 384,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Gene editing (ZFP)",
+      "companyName": "Sangamo Therapeutics",
+      "marketValue": 167
+    },
+    {
+      "to": 385,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Homology Medicines, Inc.",
+      "marketValue": 60
+    },
+    {
+      "to": 386,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "Beam Therapeutics Inc.",
+      "marketValue": 1350
+    },
+    {
+      "to": 387,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "CytoReason",
+      "marketValue": 110
+    },
+    {
+      "to": 388,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Global Blood Therapeutics",
+      "marketValue": 5400
+    },
+    {
+      "to": 389,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Gero.AI",
+      "marketValue": "NA"
+    },
+    {
+      "to": 390,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "PostEra",
+      "marketValue": 261
+    },
+    {
+      "to": 391,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "AI in clinical trials",
+      "companyName": "Tempus",
+      "marketValue": "NA"
+    },
+    {
+      "to": 392,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Spero Therapeutics",
+      "marketValue": 120
+    },
+    {
+      "to": 393,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "RNA Therapeutics",
+      "companyName": "Ginkgo Bioworks",
+      "marketValue": 331
+    },
+    {
+      "to": 394,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "CellCentric",
+      "marketValue": 25
+    },
+    {
+      "to": 395,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Therachon Holding AG",
+      "marketValue": 810
+    },
+    {
+      "to": 396,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Vedanta Biosciences",
+      "marketValue": 25
+    },
+    {
+      "to": 397,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Herophilus (Formely System1 Biosciences)",
+      "marketValue": 25
+    },
+    {
+      "to": 398,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Voyager Therapeutics",
+      "marketValue": 630
+    },
+    {
+      "to": 399,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Array BioPharma",
+      "marketValue": 11400
+    },
+    {
+      "to": 400,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Drug manufacturing",
+      "modality": "Small molecule therapy",
+      "companyName": "CSPC Pharmaceutical Group",
+      "marketValue": "NA"
+    },
+    {
+      "to": 401,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Ribon Therapeutics",
+      "marketValue": 25
+    },
+    {
+      "to": 402,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "XtalPi Inc.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 403,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Insilico Medicine",
+      "marketValue": "NA"
+    },
+    {
+      "to": 404,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Iktos",
+      "marketValue": "NA"
+    },
+    {
+      "to": 405,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": "Polymer technology",
+      "companyName": "Serina Therapeutics, Inc.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 406,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Ada Health",
+      "marketValue": "NA"
+    },
+    {
+      "to": 407,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Cue Health",
+      "marketValue": "NA"
+    },
+    {
+      "to": 408,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Non-invasive healthcare devices",
+      "companyName": "Lucira Health",
+      "marketValue": 36.4
+    },
+    {
+      "to": 409,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "ORIC Pharmaceuticals",
+      "marketValue": 25
+    },
+    {
+      "to": 410,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Carrick Therapeutics",
+      "marketValue": 35
+    },
+    {
+      "to": 411,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Anokion",
+      "marketValue": 35
+    },
+    {
+      "to": 412,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Digital health tool",
+      "companyName": "ResApp Health",
+      "marketValue": 116
+    },
+    {
+      "to": 413,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "AgomAb Therapeutics",
+      "marketValue": 40.5
+    },
+    {
+      "to": 414,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "Valneva",
+      "marketValue": 95
+    },
+    {
+      "to": 415,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Akero Therapeutics",
+      "marketValue": 25
+    },
+    {
+      "to": 416,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Bispecific antibodies",
+      "companyName": "Dren Bio",
+      "marketValue": 1025
+    },
+    {
+      "to": 417,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Zentalis Pharmaceuticals",
+      "marketValue": 25
+    },
+    {
+      "to": 418,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "ReViral",
+      "marketValue": 525
+    },
+    {
+      "to": 419,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Arena Pharmaceuticals",
+      "marketValue": 6700
+    },
+    {
+      "to": 420,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Cardiff Oncology",
+      "marketValue": 15
+    },
+    {
+      "to": 421,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Trillium Therapeutics",
+      "marketValue": 2220
+    },
+    {
+      "to": 422,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Targeted Protein Degradation",
+      "companyName": "Arvinas",
+      "marketValue": 2050
+    },
+    {
+      "to": 423,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Amplyx Pharmaceuticals",
+      "marketValue": "NA"
+    },
+    {
+      "to": 424,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "ImCyse",
+      "marketValue": 25.8
+    },
+    {
+      "to": 425,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug manufacturing",
+      "modality": "Small molecule therapy",
+      "companyName": "LianBio",
+      "marketValue": 155
+    },
+    {
+      "to": 426,
+      "from": "Pfizer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and Development",
+      "modality": "Small molecule therapy",
+      "companyName": "Arixa Pharmaceuticals",
+      "marketValue": "NA"
+    },
+    {
+      "to": 427,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "CStone Pharmaceuticals",
+      "marketValue": 200
+    },
+    {
+      "to": 428,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Direct Lytic Agents (DLAs)",
+      "companyName": "ContraFect",
+      "marketValue": 3
+    },
+    {
+      "to": 429,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Gene therapy",
+      "companyName": "Vivet Therapeutics",
+      "marketValue": 651
+    },
+    {
+      "to": 430,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Gliknik",
+      "marketValue": 15
+    },
+    {
+      "to": 431,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Antibody-Drug Conjugate (ADC)",
+      "companyName": "Nona Biosciences",
+      "marketValue": 1103
+    },
+    {
+      "to": 432,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Vaccines",
+      "companyName": "BioNTech",
+      "marketValue": 425
+    },
+    {
+      "to": 433,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "ImmunOs Therapeutics AG",
+      "marketValue": 16.9
+    },
+    {
+      "to": 434,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Truveta",
+      "marketValue": "NA"
+    },
+    {
+      "to": 435,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Ranok Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 436,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Multiple modalities",
+      "companyName": "Anjarium Biosciences",
+      "marketValue": 61
+    },
+    {
+      "to": 437,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Mediar Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 438,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "RNA Therapeutics",
+      "companyName": "Telesis Bio, Inc. (Formely Codex DNA)",
+      "marketValue": 100
+    },
+    {
+      "to": 439,
+      "from": "Pfizer",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and Development",
+      "modality": "Multiple modalities",
+      "companyName": "SpringWorks Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 440,
+      "from": "Pfizer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Montis Biosciences",
+      "marketValue": 9.02
+    },
+    {
+      "to": 441,
+      "from": "Bayer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "BlueRock Therapeutics",
+      "marketValue": 250
+    },
+    {
+      "to": 442,
+      "from": "Bayer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Gene therapy",
+      "companyName": "Asklepios BioPharmaceutical",
+      "marketValue": 4000
+    },
+    {
+      "to": 443,
+      "from": "Bayer",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": "Gene therapy",
+      "companyName": "Acuitas Therapeutics, Inc.",
+      "marketValue": "NA"
+    },
+    {
+      "to": 444,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Gene circuit-engineered cell and gene therapies",
+      "companyName": "Senti Biosciences, Inc.",
+      "marketValue": 105
+    },
+    {
+      "to": 445,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "Triumvira Immunologics Inc",
+      "marketValue": 100
+    },
+    {
+      "to": 446,
+      "from": "Bayer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Targeted Alpha Therapies (TATs)",
+      "companyName": "Noria Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 447,
+      "from": "Bayer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Drug development in Women’s Healthcare",
+      "companyName": " KaNDy Therapeutics Ltd",
+      "marketValue": 875
+    },
+    {
+      "to": 448,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Drug development in Women’s Healthcare",
+      "companyName": "Systems Oncology",
+      "marketValue": 345
+    },
+    {
+      "to": 449,
+      "from": "Bayer",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and development",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "Casebia Therapeutics (CRISPR Therapeutics and Bayer joint venture)",
+      "marketValue": "NA"
+    },
+    {
+      "to": 450,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "Metagenomi Technologies",
+      "marketValue": 65
+    },
+    {
+      "to": 451,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Huma Therapeutics ",
+      "marketValue": 130
+    },
+    {
+      "to": 452,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Ada Health",
+      "marketValue": 90
+    },
+    {
+      "to": 453,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "One Drop",
+      "marketValue": 100
+    },
+    {
+      "to": 454,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug Delivery Technology",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "Vesigen Therapeutics",
+      "marketValue": 28.5
+    },
+    {
+      "to": 455,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Azitra Inc.",
+      "marketValue": 17
+    },
+    {
+      "to": 456,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and Development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Bloom Science",
+      "marketValue": 12
+    },
+    {
+      "to": 457,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Elly Health",
+      "marketValue": 1.3
+    },
+    {
+      "to": 458,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Wellthy Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 459,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Visotec GmbH",
+      "marketValue": 0.081
+    },
+    {
+      "to": 460,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Upside Health",
+      "marketValue": 0.2
+    },
+    {
+      "to": 461,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Gene therapy",
+      "companyName": "Boundless Bio",
+      "marketValue": 100
+    },
+    {
+      "to": 462,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Genomics analysis",
+      "companyName": "Paratus Sciences",
+      "marketValue": 100
+    },
+    {
+      "to": 463,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Aparito",
+      "marketValue": 1.1
+    },
+    {
+      "to": 464,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Agamon Health",
+      "marketValue": 3
+    },
+    {
+      "to": 465,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug Delivery Technology",
+      "modality": "Gene therapy",
+      "companyName": "Recode Therapeutics",
+      "marketValue": 120
+    },
+    {
+      "to": 466,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "Affini-T Therapeutics ",
+      "marketValue": 175
+    },
+    {
+      "to": 467,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "Indapta Therapeutics ",
+      "marketValue": 50
+    },
+    {
+      "to": 468,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Woebot Health",
+      "marketValue": 9.5
+    },
+    {
+      "to": 469,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug manufacturing",
+      "modality": "Cell therapy",
+      "companyName": "Cellino",
+      "marketValue": 80
+    },
+    {
+      "to": 470,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Deka Biosciences",
+      "marketValue": 20
+    },
+    {
+      "to": 471,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "GRO Biosciences Inc.",
+      "marketValue": 25
+    },
+    {
+      "to": 472,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Gandeeva Therapeutics",
+      "marketValue": 40
+    },
+    {
+      "to": 473,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "Mozart Therapeutics",
+      "marketValue": 55
+    },
+    {
+      "to": 474,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Digital health tool",
+      "companyName": "Edifice Health ",
+      "marketValue": 12
+    },
+    {
+      "to": 475,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Immunotherapy",
+      "modality": "Therapeutics for Food allergy",
+      "companyName": "Ukko",
+      "marketValue": 40
+    },
+    {
+      "to": 476,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Ji Xing Pharmaceuticals",
+      "marketValue": 35
+    },
+    {
+      "to": 477,
+      "from": "Bayer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Vividion Therapeutics",
+      "marketValue": 2000
+    },
+    {
+      "to": 478,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Radiopharmaceutical therapy",
+      "companyName": "Ratio Therapeutics",
+      "marketValue": 20
+    },
+    {
+      "to": 479,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Recursion",
+      "marketValue": 50
+    },
+    {
+      "to": 480,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Disease Diagnostics and Devices",
+      "modality": "Non-invasive healthcare devices",
+      "companyName": "Acorai\n",
+      "marketValue": "NA"
+    },
+    {
+      "to": 481,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Vaccines",
+      "companyName": "Khloris Biosciences",
+      "marketValue": "NA"
+    },
+    {
+      "to": 482,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Dewpoint Therapeutics",
+      "marketValue": 100
+    },
+    {
+      "to": 483,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Pyxis Oncology",
+      "marketValue": 22
+    },
+    {
+      "to": 484,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "Century Therapeutics",
+      "marketValue": 250
+    },
+    {
+      "to": 485,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Organ Transplantation",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "eGenesis",
+      "marketValue": 50
+    },
+    {
+      "to": 486,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "In-silico drug discovery",
+      "companyName": "Kojin Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 487,
+      "from": "Bayer",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Drug development in Women’s Healthcare",
+      "companyName": "Daré Bioscience",
+      "marketValue": 330
+    },
+    {
+      "to": 488,
+      "from": "Bayer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Gene therapy",
+      "companyName": "Viralgen Vector Core",
+      "marketValue": 4000
+    },
+    {
+      "to": 489,
+      "from": "Bayer",
+      "partnership": "Partnership",
+      "sector": "Drug discovery and development",
+      "modality": "Gene therapy",
+      "companyName": "TAAV Biomanufacturing Solutions\n(Asklepios BioPharmaceutical and Touchlight)",
+      "marketValue": "NA"
+    },
+    {
+      "to": 490,
+      "from": "Bayer",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology",
+      "modality": "AI-powered diagnostics",
+      "companyName": "Blackford Analysis Inc",
+      "marketValue": "NA"
+    },
+    {
+      "to": 491,
+      "from": "Bayer",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Gene therapy",
+      "companyName": "Brain Neurotherapy Bio, Inc",
+      "marketValue": "NA"
+    },
+    {
+      "to": 492,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Aqemia",
+      "marketValue": 140
+    },
+    {
+      "to": 493,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "RNA Therapeutics",
+      "companyName": "MeiraGTx",
+      "marketValue": 30
+    },
+    {
+      "to": 494,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "QurAlis Corporation",
+      "marketValue": 88
+    },
+    {
+      "to": 495,
+      "from": "Sanofi",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Formation Bio (Formely TrialSpark )",
+      "marketValue": "NA"
+    },
+    {
+      "to": 496,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Innate Pharma",
+      "marketValue": 1456.4
+    },
+    {
+      "to": 497,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Vaccines",
+      "companyName": "Janssen Pharmaceuticals",
+      "marketValue": 175
+    },
+    {
+      "to": 498,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Cell therapy",
+      "companyName": "Kiadis Pharma",
+      "marketValue": 358
+    },
+    {
+      "to": 499,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Gene editing technologies (CRISPR)",
+      "companyName": "Scribe Therapeutics",
+      "marketValue": 1025
+    },
+    {
+      "to": 500,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development ",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Provention Bio",
+      "marketValue": 2900
+    },
+    {
+      "to": 501,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug manufacturing",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Kadmon Corporation",
+      "marketValue": 1900
+    },
+    {
+      "to": 502,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Exscientia",
+      "marketValue": 5300
+    },
+    {
+      "to": 503,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "BioMap",
+      "marketValue": 1010
+    },
+    {
+      "to": 504,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Microbiome-based therapies",
+      "companyName": "Origimm Biotechnology",
+      "marketValue": "NA"
+    },
+    {
+      "to": 505,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology",
+      "modality": "RNA Therapeutics",
+      "companyName": "Tidal Therapeutics",
+      "marketValue": 470
+    },
+    {
+      "to": 506,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug Delivery Technology",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Enable Injections",
+      "marketValue": 50
+    },
+    {
+      "to": 507,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Kymab Limited",
+      "marketValue": 1450
+    },
+    {
+      "to": 508,
+      "from": "Sanofi",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "NovAliX",
+      "marketValue": "NA"
+    },
+    {
+      "to": 509,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Teva Pharmaceuticals",
+      "marketValue": 500
+    },
+    {
+      "to": 510,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Biotechnology",
+      "modality": "RNA Therapeutics",
+      "companyName": "Translate Bio",
+      "marketValue": 3200
+    },
+    {
+      "to": 511,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Curadigm",
+      "marketValue": "NA"
+    },
+    {
+      "to": 512,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Click Therapeutics",
+      "marketValue": 17
+    },
+    {
+      "to": 513,
+      "from": "Sanofi",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "BioMed X",
+      "marketValue": "NA"
+    },
+    {
+      "to": 514,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "RNA Therapeutics",
+      "companyName": "Massachusetts Institute of Technology (MIT)",
+      "marketValue": 25
+    },
+    {
+      "to": 515,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Recludix Pharma",
+      "marketValue": 1325
+    },
+    {
+      "to": 516,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Inhibrx Inc",
+      "marketValue": 1700
+    },
+    {
+      "to": 517,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Small molecule therapy",
+      "companyName": "Areteia Therapeutics",
+      "marketValue": 350
+    },
+    {
+      "to": 518,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Amunix Pharmaceuticals Inc",
+      "marketValue": 1225
+    },
+    {
+      "to": 519,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Owkin",
+      "marketValue": 270
+    },
+    {
+      "to": 520,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "AI in clinical trials",
+      "companyName": "Novadiscovery",
+      "marketValue": 2.6
+    },
+    {
+      "to": 521,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Small molecule therapy",
+      "companyName": "Principia Biopharma",
+      "marketValue": 3680
+    },
+    {
+      "to": 522,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "RNA Therapeutics",
+      "companyName": "Translate Bio",
+      "marketValue": 425
+    },
+    {
+      "to": 523,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Kymera Therapeutics Inc",
+      "marketValue": 2150
+    },
+    {
+      "to": 524,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Synthorx, Inc.",
+      "marketValue": 2500
+    },
+    {
+      "to": 525,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Nurix Therapeutics",
+      "marketValue": 2555
+    },
+    {
+      "to": 526,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "AI in clinical trials",
+      "companyName": "Aetion",
+      "marketValue": 27
+    },
+    {
+      "to": 527,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Small molecule therapy",
+      "companyName": "Denali Therapeutics",
+      "marketValue": 1125
+    },
+    {
+      "to": 528,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Ablynx",
+      "marketValue": 4200
+    },
+    {
+      "to": 529,
+      "from": "Sanofi",
+      "partnership": "Acquisition",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "Bioverativ",
+      "marketValue": 11600
+    },
+    {
+      "to": 530,
+      "from": "Sanofi",
+      "partnership": "Partnership",
+      "sector": "Drug Delivery Technology",
+      "modality": "Ionic liquid technology",
+      "companyName": "i2O Therapeutics",
+      "marketValue": "NA"
+    },
+    {
+      "to": 531,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Precision Therapeutics ",
+      "companyName": "Sudo Biosciences",
+      "marketValue": 116
+    },
+    {
+      "to": 532,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based Therapeutics",
+      "companyName": "IGM Biosciences",
+      "marketValue": 6150
+    },
+    {
+      "to": 533,
+      "from": "Sanofi",
+      "partnership": "Partnership",
+      "sector": "Biotechnology",
+      "modality": "Gene therapy",
+      "companyName": "SIRION Biotech GmbH",
+      "marketValue": "NA"
+    },
+    {
+      "to": 534,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Protein and peptide-based therapeutics",
+      "companyName": "Biond Biologics",
+      "marketValue": 1125
+    },
+    {
+      "to": 535,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Biotechnology",
+      "modality": "In-silico drug discovery",
+      "companyName": "Adagene",
+      "marketValue": 2517.5
+    },
+    {
+      "to": 536,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Drug discovery and development",
+      "modality": "Bispecific antibodies",
+      "companyName": "ABL Bio",
+      "marketValue": 1060
+    },
+    {
+      "to": 537,
+      "from": "Sanofi",
+      "partnership": "Investment",
+      "sector": "Medical Devices & Equipment",
+      "modality": "Therapeutic devices",
+      "companyName": "BIOCORP",
+      "marketValue": 8.07
+    },
+    {
+      "to": 538,
+      "from": "Sanofi",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "Health2Sync",
+      "marketValue": "NA"
+    },
+    {
+      "to": 539,
+      "from": "Sanofi",
+      "partnership": "Partnership",
+      "sector": "Healthcare SaaS",
+      "modality": "Digital health tool",
+      "companyName": "BrightInsight Inc",
+      "marketValue": "NA"
+    }
+  ]

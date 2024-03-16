@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+    body,
+    .highcharts-root,
+    .font {
+      font-family: "Poppins", sans-serif !important;
+    }
+
+    .logo-circle {
+      width: 55px;
+      height: 55px;
+      border-radius: 50px;
+      background-color: #fff;
+      border: 1px solid #000;
+    }
+    .logo-circle img {
+      width: 91%;
+      height: auto;
+      position: relative;
+      top: 50%;
+      transform: translate(6%, -50%);
+    }
+    .filter-24-container {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      padding: 16px;
+      row-gap: 65px;
+      padding-right: 2px;
+      padding-left: 2px;
+      margin-left: 5px;
+    }
+    .filter-24-dropdown-menu {
+      box-sizing: content-box;
+      width: 174px;
+      height: 1em;
+      padding: 18px 21px;
+      background-color: #fff;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+      font-size: 12px;
+      color: #454545;
+      letter-spacing: 0.2px;
+      background-color: #f4f4f4;
+    }
+    .filter-24-drop-icon {
+      width: 25px;
+      position: absolute;
+      top: 12px;
+      right: 15px;
+    }
+    .filter-24-dropdown-wrapper {
+      position: relative;
+      cursor: pointer;
+    }
+    .filter-24-drop-chkbox {
+      height: auto;
+      background-color: #fff;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ececec;
+      padding: 9px 0;
+      overflow-y: auto;
+      position: absolute;
+      width: 232px;
+      top: 76px;
+      display: none;
+      z-index: 100;
+    }
+    .filter-24-drop-chkbox1 {
+      height: auto;
+      background-color: #fff;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ececec;
+      padding: 9px 0;
+      overflow-y: auto;
+      position: absolute;
+      width: 232px;
+      top: 76px;
+      display: none;
+      z-index: 100;
+    }
+
+    .filter-24-form-group {
+      display: block;
+      padding: 10px 18px;
+    }
+
+    .filter-24-form-group input {
+      padding: 0;
+      height: initial;
+      width: initial;
+      margin-bottom: 0;
+      display: none;
+      cursor: pointer;
+    }
+
+    .filter-24-form-group label {
+      position: relative;
+      cursor: pointer;
+      font-size: 14px;
+      color: #454545;
+      letter-spacing: 0.2px;
+      font-weight: 500;
+    }
+
+    .filter-24-form-group label:before {
+      content: "";
+      -webkit-appearance: none;
+      background-color: transparent;
+      border: 1px solid #0079bf;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+        inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+      padding: 7px;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .filter-24-form-group input:checked + label:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      width: 3px;
+      height: 8px;
+      border: solid #0079bf;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    .filter-24-form-group .filter-24-label1 {
+      position: relative;
+      cursor: pointer;
+      font-size: 14px;
+      color: #454545;
+      letter-spacing: 0.2px;
+      font-weight: 500;
+    }
+    .legend {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 13px;
+      border: 1px solid;
+      padding: 10px;
+    }
+    .panel {
+      position: fixed;
+      top: 0;
+      right: -300px; /* Initially hide the panel to the right */
+      width: 300px;
+      height: 100%;
+      background-color: #f4f4f4;
+      transition: right 0.5s; /* Apply transition effect to right position */
+      z-index: 1000; /* Ensure panel stays above other content */
+    }
+
+    .panel-content {
+      padding: 20px;
+    }
+    .message-panel {
+      position: fixed;
+      top: 120px;
+      left: 35%;
+      background-color: #c2a8a8;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      z-index: 9999;
+    }
+    .line {
+      width: 150px;
+      height: 1px;
+      margin: 10px 0;
+    }
+
+    .dash {
+      border-top: 4px dashed black;
+    }
+
+    .solid {
+      border-top: 4px solid black;
+    }
+
+    .dot {
+      border-top: 4px dotted black;
+    }
+    .contain {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  </style>
+  <body>
+    <div style="display: flex; flex-direction: column">
+      <div class="message-panel" id="messageDiv"></div>
+      <div style="display: flex; margin-left: 19px">
+        <div class="filter-24-container">
+          <div
+            class="filter-24-dropdown-wrapper"
+            onclick="toggleFilterDropdownCheckbox()"
+          >
+            <div class="filter-24-dropdown-menu">Filter with company</div>
+            <div class="filter-24-drop-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="filter-24-drop-chkbox" id="SectionName">
+            <div class="filter-24-form-group">
+              <div id="checkboxes"></div>
+            </div>
+          </div>
+        </div>
+        <div class="filter-24-container">
+          <div
+            class="filter-24-dropdown-wrapper"
+            onclick="toggleFilterDropdownfilter()"
+          >
+            <div class="filter-24-dropdown-menu">Filter with Deal Type</div>
+            <div class="filter-24-drop-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="filter-24-drop-chkbox1" id="SectionName">
+            <div class="filter-24-form-group">
+              <div class="font" id="filters"></div>
+            </div>
+          </div>
+        </div>
+        <button
+          style="
+            height: 48px;
+            margin-top: 17px;
+            font-size: 12px;
+            margin-left: 11px;
+          "
+          onclick="toggleLegendPanel()"
+          id="toggleLegendButton"
+        >
+          Legend
+        </button>
+      </div>
+      <div id="legendPanel" class="panel">
+        <div class="panel-content">
+          <div class="legend" id="sectorColorsContainer"></div>
+        </div>
+        <div class="panel-content">
+          <div class="legend">
+            <div class="contain">
+              <div>Partnership</div>
+              <div class="line dash"></div>
+            </div>
+            <div class="contain">
+              <div>Investment</div>
+              <div class="line solid"></div>
+            </div>
+            <div class="contain">
+              <div>Acquisition</div>
+              <div class="line dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="container" style="height: 2000px; width: 2000px"></div>
+    </div>
+
+    <script>
+      function toggleLegendPanel() {
+        const legendPanel = document.getElementById("legendPanel");
+        const computedStyle = window.getComputedStyle(legendPanel);
+        const currentRight = computedStyle.getPropertyValue("right");
+
+        if (currentRight === "-300px") {
+          legendPanel.style.display = "block";
+          legendPanel.style.right = "0";
+          legendPanel.style.height = "initial";
+          legendPanel.style.overflowY = "hidden";
+          legendPanel.style.width = "400px";
+          legendPanel.style.marginTop = "99px";
+        } else {
+          legendPanel.style.right = "-300px";
+          legendPanel.style.height = "initial";
+          legendPanel.style.overflowY = "auto";
+          legendPanel.style.width = "0px";
+        }
+      }
+
+      function closeAllFilterDropdowns(excludeDropdown) {
+        var dropdownClasses = [
+          ".filter-24-drop-chkbox",
+          ".filter-24-drop-chkbox1",
+        ];
+
+        dropdownClasses.forEach(function (className) {
+          var dropdowns = document.querySelectorAll(className);
+          dropdowns.forEach(function (dropdown) {
+            if (dropdown !== excludeDropdown) {
+              dropdown.style.display = "none";
+            }
+          });
+        });
+        const legendPanel = document.getElementById("legendPanel");
+        legendPanel.style.display = "none";
+      }
+
+      function toggleFilterDropdown(dropdownClassName) {
+        var dropdown = document.querySelector(dropdownClassName);
+        if (dropdown.style.display === "block") {
+          dropdown.style.display = "none";
+        } else {
+          closeAllFilterDropdowns(dropdown);
+          dropdown.style.display = "block";
+        }
+      }
+
+      function toggleFilterDropdownCheckbox() {
+        toggleFilterDropdown(".filter-24-drop-chkbox");
+      }
+
+      function toggleFilterDropdownfilter() {
+        toggleFilterDropdown(".filter-24-drop-chkbox1");
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        const mapContainer = document.getElementById("container");
+        mapContainer.addEventListener("click", function () {
+          closeAllFilterDropdowns();
+        });
+      });
+
+      Highcharts.addEvent(Highcharts.Series, "afterSetOptions", function (e) {
+        const sectorColorsMap = {
+          "Drug discovery and development": "#f56e8b",
+          Biotechnology: "#4D93D9",
+          "Healthcare SaaS": "#934BC9",
+          "Drug Delivery Technology": "#fcba03",
+          "Disease Diagnostics and Devices": "#47D359",
+          "Drug manufacturing": "#E97132",
+          "Medical Devices & Equipment": "#808000",
+        };
+
+        const nodes = {};
+        let i = 0;
+        console.log(sectorColorsMap, "sectorColorsMap");
+        if (this instanceof Highcharts.Series && e.options.id === "lang-tree") {
+          e.options.data.forEach(function (link) {
+            if (!nodes[link.from]) {
+              nodes[link.from] = {
+                id: link.from,
+                marketValue:
+                  link.marketValue != "NA" ? link.marketValue + "M" : "",
+                partnership: link.partnership,
+                marker: {
+                  radius:
+                    link.from.startsWith("Bayer") ||
+                    link.from.startsWith("Astrazeneca") ||
+                    link.from.startsWith("Merck & Co") ||
+                    link.from.startsWith("AbbVie") ||
+                    link.from.startsWith("Novartis") ||
+                    link.from.startsWith("BMS") ||
+                    link.from.startsWith("Johnson & Johnson") ||
+                    link.from.startsWith("Pfizer") ||
+                    link.from.startsWith("Sanofi") ||
+                    link.from.startsWith("Amgen") ||
+                    link.from.startsWith("BioNTech") ||
+                    link.from.startsWith("Boehringer Ingelheim") ||
+                    link.from.startsWith("Eli Lilly") ||
+                    link.from.startsWith("Gilead Sciences") ||
+                    link.from.startsWith("GSK") ||
+                    link.from.startsWith("Merck KGaA") ||
+                    link.from.startsWith("Moderna") ||
+                    link.from.startsWith("Novo nordisk") ||
+                    link.from.startsWith("Takeda") ||
+                    link.from.startsWith("Roche")
+                      ? 1
+                      : 14,
+                },
+                to: link.to,
+                color: sectorColorsMap[link.sector],
+                Modality: link.Modality,
+                companyName: link.companyName,
+              };
+            }
+
+            if (!nodes[link.to]) {
+              nodes[link.to] = {
+                id: link.to,
+                marketValue:
+                  link.marketValue != "NA" ? link.marketValue + "M" : "",
+                to: link.to,
+                partnership: link.partnership,
+                marker: {
+                  radius: 14,
+                },
+                Modality: link.Modality,
+                companyName: link.companyName,
+                color: sectorColorsMap[link.sector],
+              };
+            }
+
+            nodes[link.from].color = sectorColorsMap[link.sector];
+            nodes[link.to].color = sectorColorsMap[link.sector];
+            link.color = sectorColorsMap[link.sector];
+          });
+
+          e.options.nodes = Object.keys(nodes).map(function (id) {
+            return nodes[id];
+          });
+          let sectorColorsHTML = "";
+          for (const [sector, color] of Object.entries(sectorColorsMap)) {
+            sectorColorsHTML += `<div style="display:flex;justify-content:space-between;"><div>${sector}</div><div style="border: 1px solid;padding: 5px;margin-left: 13px;background-color: #1f77b4;height: 8px;width: 8px; background-color: ${color}"></div></div>`;
+          }
+          document.getElementById("sectorColorsContainer").innerHTML =
+            sectorColorsHTML;
+        }
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        function appendDuplicates(data) {
+          let fromCounts = {};
+
+          data.forEach((item) => {
+            if (fromCounts[item.from]) {
+              fromCounts[item.from]++;
+            } else {
+              fromCounts[item.from] = 1;
+            }
+          });
+
+          data.forEach((item) => {
+            if (fromCounts[item.from] > 1) {
+              item.from += fromCounts[item.from]--;
+            }
+            item.width = 1.5;
+          });
+
+          return data;
+        }
+
+        data = appendDuplicates(data);
+
+        data.sort((a, b) => a.from.localeCompare(b.from));
+        var filteredDatas = data;
+        renderCheckboxes();
+        renderPartnershipCheckboxes();
+
+        const checkboxes = document.querySelectorAll('input[name="company"]');
+        const partnershipCheckboxes = document.querySelectorAll(
+          'input[name="partnership"]'
+        );
+
+        function companyCheckboxHandler(event) {
+          filterData("companyChecked");
+        }
+
+        checkboxes.forEach((checkbox) => {
+          checkbox.addEventListener("change", companyCheckboxHandler);
+        });
+
+        partnershipCheckboxes.forEach((checkbox) => {
+          checkbox.addEventListener("change", filterData);
+        });
+
+        function renderCheckboxes() {
+          const uniqueFromValues = [
+            ...new Set(
+              data.map((item) =>
+                extractMainName(item.from).toLowerCase().trim()
+              )
+            ),
+          ];
+          const checkboxesDiv = document.getElementById("checkboxes");
+
+          // "Select All" checkbox
+          const selectAllCheckbox = document.createElement("input");
+          selectAllCheckbox.type = "checkbox";
+          selectAllCheckbox.id = "companySelectAll";
+          selectAllCheckbox.checked = true;
+
+          selectAllCheckbox.addEventListener("change", function () {
+            const checkboxes = document.querySelectorAll(
+              'input[name="company"]'
+            );
+            checkboxes.forEach((checkbox) => {
+              checkbox.checked = this.checked;
+            });
+            filterData();
+          });
+
+          const selectAllLabel = document.createElement("label");
+          selectAllLabel.htmlFor = "companySelectAll";
+          selectAllLabel.textContent = "Select All";
+
+          checkboxesDiv.appendChild(selectAllCheckbox);
+          checkboxesDiv.appendChild(selectAllLabel);
+          checkboxesDiv.appendChild(document.createElement("br"));
+
+          uniqueFromValues
+            .sort((a, b) => a.localeCompare(b))
+            .forEach((value, index) => {
+              const checkbox = document.createElement("input");
+              checkbox.type = "checkbox";
+              checkbox.name = "company";
+              checkbox.value = value;
+              checkbox.id = value;
+              const label = document.createElement("label");
+              label.htmlFor = value;
+              label.textContent =
+                value.charAt(0).toUpperCase() + value.slice(1);
+              checkbox.checked = true; // Set checkbox as checked for the first entry
+
+              checkboxesDiv.appendChild(checkbox);
+              checkboxesDiv.appendChild(label);
+              checkboxesDiv.appendChild(document.createElement("br"));
+            });
+        }
+        function extractMainName(name) {
+          // Split the name based on numbers and take the first part
+          return name.split(/[0-9]/)[0].trim();
+        }
+
+        function renderPartnershipCheckboxes() {
+          const uniquePartnershipValues = [
+            ...new Set(
+              data.map((item) => item.partnership.toLowerCase().trim())
+            ),
+          ];
+          const filtersDiv = document.getElementById("filters");
+
+          // Create "Select All"checkbox
+          const selectAllCheckbox = document.createElement("input");
+          selectAllCheckbox.type = "checkbox";
+          selectAllCheckbox.name = "partnershipSelectAll";
+          selectAllCheckbox.id = "partnershipSelectAll";
+          selectAllCheckbox.checked = true;
+
+          selectAllCheckbox.addEventListener("change", function () {
+            const checkboxes = document.querySelectorAll(
+              'input[name="partnership"]'
+            );
+            checkboxes.forEach((checkbox) => {
+              checkbox.checked = this.checked;
+            });
+            filterData();
+          });
+          const selectAllLabel = document.createElement("label");
+          selectAllLabel.htmlFor = "partnershipSelectAll";
+          selectAllLabel.textContent = "Select All";
+          filtersDiv.appendChild(selectAllCheckbox);
+          filtersDiv.appendChild(selectAllLabel);
+          filtersDiv.appendChild(document.createElement("br"));
+
+          uniquePartnershipValues
+            .sort((a, b) => a.localeCompare(b))
+            .forEach((value, index) => {
+              const checkbox = document.createElement("input");
+              checkbox.type = "checkbox";
+              checkbox.name = "partnership";
+              checkbox.value = value;
+              checkbox.id = value;
+              const label = document.createElement("label");
+              label.htmlFor = value;
+              label.textContent =
+                value.charAt(0).toUpperCase() + value.slice(1);
+              checkbox.checked = true;
+
+              filtersDiv.appendChild(checkbox);
+              filtersDiv.appendChild(label);
+              filtersDiv.appendChild(document.createElement("br"));
+            });
+        }
+
+        function filterData(comapnychecked) {
+          const checkedCompanies = Object.fromEntries(
+            Array.from(
+              document.querySelectorAll('input[name="company"]:checked')
+            ).map((checkbox) => [
+              extractMainName(checkbox.value).toLowerCase().trim(),
+              true,
+            ])
+          );
+          const checkedPartnerships = Object.fromEntries(
+            Array.from(
+              document.querySelectorAll('input[name="partnership"]:checked')
+            ).map((checkbox) => [checkbox.value.toLowerCase().trim(), true])
+          );
+          const partnershipSelectAllChecked = document.getElementById(
+            "partnershipSelectAll"
+          ).checked;
+
+          const companySelectAllChecked =
+            document.getElementById("companySelectAll").checked;
+
+          filteredData = data.filter((item) => {
+            const from = extractMainName(item.from).toLowerCase().trim();
+            const partnership = item.partnership.toLowerCase().trim();
+
+            return (
+              ((!checkedCompanies && !partnershipSelectAllChecked) ||
+                checkedCompanies[from]) &&
+              ((!checkedPartnerships && !partnershipSelectAllChecked) ||
+                checkedPartnerships[partnership])
+            );
+          });
+
+          console.log(filteredData, "filteredData");
+          formMap(filteredData);
+          if (comapnychecked == "companyChecked") {
+            updatePartnershipCheckboxes(filteredData);
+          }
+        }
+        function updatePartnershipCheckboxes(filteredData) {
+          const uniquePartnerships = new Set(
+            filteredData.map((item) => item.partnership.toLowerCase().trim())
+          );
+
+          const partnershipCheckboxes = document.querySelectorAll(
+            'input[name="partnership"]'
+          );
+
+          partnershipCheckboxes.forEach((checkbox) => {
+            const value = checkbox.value.toLowerCase().trim();
+            const shouldBeVisible = uniquePartnerships.has(value);
+            const label = document.querySelector(`label[for="${checkbox.id}"]`);
+            // checkbox.checked = shouldBeVisible && checkbox.checked;
+            label.style.display = shouldBeVisible ? "" : "none";
+            // checkbox.style.display = shouldBeVisible ? "block": "none";
+          });
+
+          const selectAllCheckbox = document.getElementById(
+            "partnershipSelectAll"
+          );
+          const allPartnershipsChecked = Array.from(uniquePartnerships).every(
+            (partnership) =>
+              Array.from(partnershipCheckboxes).find(
+                (checkbox) =>
+                  checkbox.value.toLowerCase().trim() === partnership &&
+                  checkbox.checked
+              )
+          );
+          selectAllCheckbox.checked = allPartnershipsChecked;
+        }
+
+        let chart;
+
+        const sortedData = data.sort((a, b) => a.from.localeCompare(b.from));
+        const selectedData = sortedData; // Select only the first entry
+        const firstFromValue = sortedData[0].from;
+
+        for (let i = 1; i < sortedData.length; i++) {
+          if (sortedData[i].from === firstFromValue) {
+            selectedData.push(sortedData[i]);
+          } else {
+            break; // Exit loop when the 'from' value changes
+          }
+        }
+
+        formMap(selectedData);
+
+        function formMap(mapData) {
+          console.log(mapData, "mapData");
+          chart = Highcharts.chart("container", {
+            chart: {
+              type: "networkgraph",
+              // scrollablePlotArea: {
+              //   // minHeight: 2800, // Set the minimum height for the plot area
+              //   // minWidth: 700, // Set the minimum width for the plot area
+              //   scrollPositionX: 2, // Set initial scroll position for X axis
+              // },
+              // plotBorderWidth: 1,
+              // margin: [40, 40, 20, 20],
+              // marginTop: 120,
+            },
+
+            title: {
+              text: "",
+            },
+            subTitle: {
+              text: "",
+            },
+            credits: { enabled: false },
+            plotOptions: {
+              networkgraph: {
+                layoutAlgorithm: {
+                  integration: "verlet",
+                  linkLength: 140,
+                  gravitationalConstant: 2.01,
+                  maxIterations: 445,
+                  //   initialPositions: function () {
+                  //     const chart = this.series[0].chart,
+                  //       width = chart.plotWidth,
+                  //       height = chart.plotHeight;
+                  //     this.nodes.forEach(function (node) {
+                  //       console.log(node, "nodenode");
+                  //       node.plotX =
+                  //         node.plotX === undefined
+                  //           ? Math.random() * 100
+                  //           : node.plotX;
+                  //       node.plotY =
+                  //         node.plotY === undefined
+                  //           ? Math.random() * 100
+                  //           : node.plotY;
+                  //     });
+                  //   },
+                },
+              },
+            },
+            tooltip: {
+              enabled: false,
+            },
+            series: [
+              {
+                showInLegend: false,
+                dataLabels: {
+                  enabled: true,
+                  useHTML: true,
+                  verticalAlign: "middle",
+                  align: "center",
+                  linkFormat: "{point.fromNode.options.marketValue}",
+                  allowOverlap: true,
+                  formatter: function () {
+                    var logoUrl;
+                    var content;
+
+                    if (this.point.name.startsWith("Astrazeneca")) {
+                      logoUrl =
+                        "https://www.vyopta.com/wp-content/uploads/2019/06/astrazeneca-PNG-logo.png";
+                    } else if (this.point.name.startsWith("Merck")) {
+                      logoUrl =
+                        "https://download.logo.wine/logo/Merck_%26_Co./Merck_%26_Co.-Logo.wine.png";
+                    } else if (this.point.name.startsWith("AbbVie")) {
+                      logoUrl =
+                        "https://1000logos.net/wp-content/uploads/2023/03/AbbVie-logo.png";
+                    } else if (this.point.name.startsWith("Novartis")) {
+                      logoUrl =
+                        "https://www.novartis.com/sites/novartis_com/files/styles/webp/public/2021-10/novartis-logo-transparent.png.webp?itok=-VFFv5qx";
+                    } else if (this.point.name.startsWith("BMS")) {
+                      logoUrl =
+                        "https://logos-world.net/wp-content/uploads/2023/10/BMS-Bristol-Myers-Squibb-Emblem.png";
+                    } else if (
+                      this.point.name.startsWith("Johnson & Johnson")
+                    ) {
+                      logoUrl =
+                        "https://companieslogo.com/img/orig/JNJ-5579062e.png?t=1698397492";
+                    } else if (this.point.name.startsWith("Pfizer")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/8/8b/Pfizer_%282021%29.png";
+                    } else if (this.point.name.startsWith("Bayer")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Logo_Bayer.svg/600px-Logo_Bayer.svg.png";
+                    } else if (this.point.name.startsWith("Sanofi")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/7/7d/Logo_Sanofi_%282022%29.png";
+                    } else if (this.point.name.startsWith("Amgen")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Amgen.svg/1200px-Amgen.svg.png";
+                    } else if (this.point.name.startsWith("BioNTech")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/BioNTech_Logo.png/1197px-BioNTech_Logo.png";
+                    } else if (
+                      this.point.name.startsWith("Boehringer Ingelheim")
+                    ) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Boehringer_Ingelheim_Logo.svg/2560px-Boehringer_Ingelheim_Logo.svg.png";
+                    } else if (this.point.name.startsWith("Eli Lilly")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Eli_Lilly_and_Company.svg/2560px-Eli_Lilly_and_Company.svg.png";
+                    } else if (this.point.name.startsWith("Gilead Sciences")) {
+                      logoUrl =
+                        "https://download.logo.wine/logo/Gilead_Sciences/Gilead_Sciences-Logo.wine.png";
+                    } else if (this.point.name.startsWith("GSK")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/GSK_logo_2022.svg/2560px-GSK_logo_2022.svg.png";
+                    } else if (this.point.name.startsWith("Merck KGaA")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Logo_Merck_KGaA_2015.svg/1200px-Logo_Merck_KGaA_2015.svg.png";
+                    } else if (this.point.name.startsWith("Moderna")) {
+                      logoUrl =
+                        "https://www.jdrf.org/wp-content/uploads/2020/04/Moderna-Logo-1200x800-1.jpg";
+                    } else if (this.point.name.startsWith("Novo nordisk")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Novo_Nordisk_-_Logo.svg/1200px-Novo_Nordisk_-_Logo.svg.png";
+                    } else if (this.point.name.startsWith("Takeda")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Takeda_Pharmaceutical_Company_logo.svg/2560px-Takeda_Pharmaceutical_Company_logo.svg.png";
+                    } else if (this.point.name.startsWith("Roche")) {
+                      logoUrl =
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hoffmann-La_Roche_logo.svg/2560px-Hoffmann-La_Roche_logo.svg.png";
+                    } else if (this.point.name.startsWith("Merck & Co")) {
+                      logoUrl =
+                        "https://download.logo.wine/logo/Merck_%26_Co./Merck_%26_Co.-Logo.wine.png";
+                    }
+
+                    if (logoUrl) {
+                      content =
+                        '<div class="logo-circle"style="background:white; z-index: 1000000;position: relative">' +
+                        '<img src="' +
+                        logoUrl +
+                        '"class="width: 45px; height: 45px;border-radius: 50px;  ' +
+                        (this.y - 10) +
+                        "px; left: " +
+                        (this.x - 10) +
+                        'px;">' +
+                        "</div>";
+                    }
+
+                    if (!logoUrl) {
+                      content =
+                        "<div style='margin-bottom: 60px;font-size: 10px;'>" +
+                        "<div style='max-width:80px; '>" +
+                        this.point.to +
+                        "</div>" +
+                        "<div style='display: flex; gap:3px;'>" +
+                        "<div>(" +
+                        this.point.partnership +
+                        ")</div>" +
+                        "</div>" +
+                        "</div>";
+                    }
+                    return content;
+                  },
+                },
+                marker: {
+                  symbol: "circle",
+                },
+                id: "lang-tree",
+                data: mapData,
+              },
+            ],
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
