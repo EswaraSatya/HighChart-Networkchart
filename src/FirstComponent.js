@@ -427,7 +427,7 @@ const FirstComponent = () => {
                     if (!nodes[link.to]) {
                         nodes[link.to] = {
                             id: link.to,
-                            marketValue: (link.marketValue == null || link.marketValue == "NA") ? "" : link.marketValue + "M", // Sample market value (you can replace it with your actual data)
+                            marketValue: (link.marketValue == null || link.marketValue === "NA") ? "" : link.marketValue + "M", // Sample market value (you can replace it with your actual data)
                             partnership: link.partnership, // Ensure partnership is set
                             marker: {
                                 // radius: Math.max(5, Math.floor(Math.random() * 20) + 1), // Random radius between 1 and 20
@@ -492,10 +492,6 @@ const FirstComponent = () => {
             series: [
                 {
                     showInLegend: false,
-                    dataLabels: false,
-                    accessibility: {
-                        enabled: false,
-                    },
                     allowOverlap: true, // Allow labels to overlap
                     dataLabels: {
                         enabled: true,
@@ -591,7 +587,7 @@ const FirstComponent = () => {
                         enabled: false,
                     },
                     // name: "Bayer",
-                    data: filteredJsonData.length != 0 ? filteredJsonData : jsonData,
+                    data: filteredJsonData.length !== 0 ? filteredJsonData : jsonData,
                 },
             ],
         };

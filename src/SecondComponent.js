@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Highcharts from "highcharts";
-import HighchartsNetworkgraph from "highcharts/modules/networkgraph";
-import HighchartsExporting from "highcharts/modules/exporting";
-import HighchartsAccessibility from "highcharts/modules/accessibility";
 import { mapData } from "./dataJson";
 
-HighchartsNetworkgraph(Highcharts);
-HighchartsExporting(Highcharts);
-HighchartsAccessibility(Highcharts);
+// HighchartsNetworkgraph(Highcharts);
+// HighchartsExporting(Highcharts);
+// HighchartsAccessibility(Highcharts);
 
 
 const SecondComponent = () => {
@@ -90,7 +87,6 @@ const SecondComponent = () => {
             };
 
             const nodes = {};
-            let i = 0;
 
             if (this instanceof Highcharts.Series && e.options.id === "lang-tree") {
 
@@ -107,7 +103,7 @@ const SecondComponent = () => {
                         nodes[link.from] = {
                             id: link.from,
                             marketValue:
-                                link.marketValue != "NA" ? link.marketValue + "M" : "",
+                                link.marketValue !== "NA" ? link.marketValue + "M" : "",
                             partnership: link.partnership,
                             marker: {
                                 radius:
@@ -145,7 +141,7 @@ const SecondComponent = () => {
                         nodes[link.to] = {
                             id: link.to,
                             marketValue:
-                                link.marketValue != "NA" ? link.marketValue + "M" : "",
+                                link.marketValue !== "NA" ? link.marketValue + "M" : "",
                             to: link.to,
                             partnership: link.partnership,
                             marker: {
@@ -211,10 +207,6 @@ const SecondComponent = () => {
             series: [
                 {
                     showInLegend: false,
-                    dataLabels: false,
-                    accessibility: {
-                        enabled: false,
-                    },
                     dataLabels: {
                         enabled: true,
                         useHTML: true,
@@ -338,7 +330,6 @@ const SecondComponent = () => {
         };
         Highcharts.chart("container", options);
     }, [filteredData]);
-
 
     return (
         <>
