@@ -22,3 +22,10 @@
 ::-webkit-scrollbar-thumb:active {
   background: #666;
 }
+.p-multiselect {
+  width: 360px !important;
+}
+
+.p-multiselect.p-multiselect-chip .p-multiselect-token {
+  font-size: 13px !important;
+}

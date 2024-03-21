@@ -10472,3 +10472,371 @@ export const mapData = [
         sector: "Drug discovery and Development",
     },
 ];
+
+export const modality = [
+    {
+        "name": "Cell therapy",
+        "id": 1
+    },
+    {
+        "name": "Vaccines",
+        "id": 2
+    },
+    {
+        "name": "Small molecule Therapy",
+        "id": 3
+    },
+    {
+        "name": "In-silico drug discovery",
+        "id": 4
+    },
+    {
+        "name": "Gene editing technology (TALEN based)",
+        "id": 5
+    },
+    {
+        "name": "Minimal residual disease (MRD) testing",
+        "id": 6
+    },
+    {
+        "name": "AI-powered diagnostics",
+        "id": 7
+    },
+    {
+        "name": "Digital health tool",
+        "id": 8
+    },
+    {
+        "name": "Antibody-Drug Conjugate (ADC)",
+        "id": 9
+    },
+    {
+        "name": " Implantable medical device",
+        "id": 10
+    },
+    {
+        "name": "Protein Degradation Therapy",
+        "id": 11
+    },
+    {
+        "name": "Gene editing technology (Pin-point based)",
+        "id": 12
+    },
+    {
+        "name": "Precision Therapeutics",
+        "id": 13
+    },
+    {
+        "name": "Neuroscience Therapy",
+        "id": 14
+    },
+    {
+        "name": "Gene therapy",
+        "id": 15
+    },
+    {
+        "name": "RNA Therapeutics",
+        "id": 16
+    },
+    {
+        "name": "Gene editing technologies (CRISPR)",
+        "id": 17
+    },
+    {
+        "name": "AI in clinical trials",
+        "id": 18
+    },
+    {
+        "name": "Bispecific antibodies",
+        "id": 19
+    },
+    {
+        "name": "Ready-To-Use (RTU) infusion oncology products",
+        "id": 20
+    }
+]
+
+export const companyName = [
+    {
+        "name": "Gracell Biotechnologies",
+        "id": 1
+    },
+    {
+        "name": "Omniose",
+        "id": 2
+    },
+    {
+        "name": "Icosavax, Inc.",
+        "id": 3
+    },
+    {
+        "name": "CinCor Pharma, Inc",
+        "id": 4
+    },
+    {
+        "name": "Absci",
+        "id": 5
+    },
+    {
+        "name": "Neogene Therapeutics",
+        "id": 6
+    },
+    {
+        "name": "Cellectis",
+        "id": 7
+    },
+    {
+        "name": "C2i Genomics",
+        "id": 8
+    },
+    {
+        "name": "Ibex Medical Analytics ",
+        "id": 9
+    },
+    {
+        "name": "Hospital Bellvitge",
+        "id": 10
+    },
+    {
+        "name": "Verge Genomics",
+        "id": 11
+    },
+    {
+        "name": "QuellTX",
+        "id": 12
+    },
+    {
+        "name": "LaNova Medicines",
+        "id": 13
+    },
+    {
+        "name": "Ascentage Pharma",
+        "id": 14
+    },
+    {
+        "name": "Sernova Corp",
+        "id": 15
+    },
+    {
+        "name": "Personalis, Inc.",
+        "id": 16
+    },
+    {
+        "name": "Cullgen Inc",
+        "id": 17
+    },
+    {
+        "name": "Revvity",
+        "id": 18
+    },
+    {
+        "name": "Eccogene ",
+        "id": 19
+    },
+    {
+        "name": "Cholesgen ",
+        "id": 20
+    },
+    {
+        "name": "Qure.ai",
+        "id": 21
+    },
+    {
+        "name": "JCR Pharmaceuticals Co., Ltd.",
+        "id": 22
+    },
+    {
+        "name": "Biora Therapeutics, Inc",
+        "id": 23
+    },
+    {
+        "name": "AbelZeta Pharma",
+        "id": 24
+    },
+    {
+        "name": "TeneoTwo, Inc.",
+        "id": 25
+    },
+    {
+        "name": "Neurimmune",
+        "id": 26
+    },
+    {
+        "name": "Illumina Inc",
+        "id": 27
+    },
+    {
+        "name": "RQ Biotechnology Ltd ",
+        "id": 28
+    },
+    {
+        "name": "LogicBio Therapeutics, Inc.",
+        "id": 29
+    },
+    {
+        "name": "docdok.health",
+        "id": 30
+    },
+    {
+        "name": "Rgenta Therapeutics Inc",
+        "id": 31
+    },
+    {
+        "name": "Huma ",
+        "id": 32
+    },
+    {
+        "name": "Target Medicals LLC",
+        "id": 33
+    },
+    {
+        "name": "Caelum Biosciences, Inc.",
+        "id": 34
+    },
+    {
+        "name": "Alexion Pharmaceuticals, Inc.",
+        "id": 35
+    },
+    {
+        "name": "Ionis",
+        "id": 36
+    },
+    {
+        "name": "VaxEquity",
+        "id": 37
+    },
+    {
+        "name": "Accent Therapeutics",
+        "id": 38
+    },
+    {
+        "name": "Silence Therapeutics",
+        "id": 39
+    },
+    {
+        "name": "ArcherDX",
+        "id": 40
+    },
+    {
+        "name": "Dogma Therapeutics",
+        "id": 41
+    },
+    {
+        "name": "Daiichi Sankyo Company, Limited",
+        "id": 42
+    },
+    {
+        "name": "BenevolentAI ",
+        "id": 43
+    },
+    {
+        "name": "Aptamer Group",
+        "id": 44
+    },
+    {
+        "name": "Cancer Research UK",
+        "id": 45
+    },
+    {
+        "name": "Innate Pharma SA",
+        "id": 46
+    },
+    {
+        "name": "IGI Research",
+        "id": 47
+    },
+    {
+        "name": "Pelago Bioscience",
+        "id": 48
+    },
+    {
+        "name": "Yiviva ",
+        "id": 49
+    },
+    {
+        "name": "Sarah Cannon Research Institute (SCRI)",
+        "id": 50
+    },
+    {
+        "name": "Cellular Biomedicine Group Inc.",
+        "id": 51
+    },
+    {
+        "name": "Allorion Therapeutics ",
+        "id": 52
+    },
+    {
+        "name": "Compugen Ltd",
+        "id": 53
+    },
+    {
+        "name": "Presage Biosciences",
+        "id": 54
+    },
+    {
+        "name": "IMBdx Inc.",
+        "id": 55
+    },
+    {
+        "name": "Nanoform Finland",
+        "id": 56
+    },
+    {
+        "name": "KYM Biosciences",
+        "id": 57
+    },
+    {
+        "name": "Sun Pharmaceutical Industries Ltd.",
+        "id": 58
+    },
+    {
+        "name": "ProBioGen",
+        "id": 59
+    },
+    {
+        "name": "Regio Biosciences ",
+        "id": 60
+    }
+]
+
+export const sector = [
+    {
+        "name": "Drug discovery and Development",
+        "id": 1
+    },
+    {
+        "name": "Biotechnology",
+        "id": 2
+    },
+    {
+        "name": "Healthcare SaaS",
+        "id": 3
+    },
+    {
+        "name": "Disease Diagnostics and Devices",
+        "id": 4
+    },
+    {
+        "name": "Drug Delivery Technology",
+        "id": 5
+    },
+    {
+        "name": "Drug manufacturing",
+        "id": 6
+    }
+]
+
+export const partnership = [
+    {
+        "name": "Acquisition",
+        "id": 1
+    },
+    {
+        "name": "Partnership",
+        "id": 2
+    },
+    {
+        "name": "Investment",
+        "id": 3
+    }
+]
