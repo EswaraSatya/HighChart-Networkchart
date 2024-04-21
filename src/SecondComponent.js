@@ -406,6 +406,7 @@ const SecondComponent = () => {
                     placeholder="Select Partnership"
                     maxSelectedLabels={3}
                     className="w-full md:w-20rem"
+                    display="chip"
                 />
 
                 <MultiSelect
@@ -417,6 +418,7 @@ const SecondComponent = () => {
                     maxSelectedLabels={3}
                     className="w-full md:w-20rem"
                     filter
+                    display="chip"
                 />
                 <MultiSelect
                     value={selectedModalities}
@@ -427,6 +429,7 @@ const SecondComponent = () => {
                     maxSelectedLabels={3}
                     className="w-full md:w-20rem"
                     filter
+                    display="chip"
                 />
             </div>
             <div style={{ display: "flex", alignItems: "center" }}>
