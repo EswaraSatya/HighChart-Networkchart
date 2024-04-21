@@ -127,7 +127,7 @@ export const mapData = [
     },
     {
         partnership: "Partnership",
-        modality: " Implantable medical device",
+        modality: "Implantable medical device",
         companyName: "Sernova Corp",
         marketValue: "NA",
         from: "Astrazeneca",
@@ -199,7 +199,7 @@ export const mapData = [
     },
     {
         partnership: "Partnership",
-        modality: " Implantable medical device",
+        modality: "Implantable medical device",
         companyName: "Biora Therapeutics, Inc",
         marketValue: "NA",
         from: "Astrazeneca",
@@ -2868,7 +2868,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Bristol-Myers Squibb",
         to: 319,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Investment",
@@ -2940,7 +2940,7 @@ export const mapData = [
         marketValue: "75",
         from: "Bristol-Myers Squibb",
         to: 327,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Acquisition",
@@ -3139,7 +3139,7 @@ export const mapData = [
         marketValue: "16600",
         from: "Johnson & Johnson",
         to: 349,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Investment",
@@ -3202,7 +3202,7 @@ export const mapData = [
         marketValue: "35",
         from: "Johnson & Johnson",
         to: 356,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Partnership",
@@ -3319,7 +3319,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Johnson & Johnson",
         to: 369,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Investment",
@@ -3611,7 +3611,7 @@ export const mapData = [
     },
     {
         partnership: "Investment",
-        modality: " Implantable medical device",
+        modality: "Implantable medical device",
         companyName: "CVRx®",
         marketValue: "50",
         from: "Johnson & Johnson",
@@ -3643,7 +3643,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Johnson & Johnson",
         to: 405,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Acquisition",
@@ -3661,7 +3661,7 @@ export const mapData = [
         marketValue: "5750",
         from: "Johnson & Johnson",
         to: 407,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Investment",
@@ -3679,7 +3679,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Johnson & Johnson",
         to: 409,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Acquisition",
@@ -3688,7 +3688,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Johnson & Johnson",
         to: 410,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Acquisition",
@@ -4861,7 +4861,7 @@ export const mapData = [
         marketValue: "2900",
         from: "Sanofi",
         to: 540,
-        sector: "Drug discovery and Development ",
+        sector: "Drug discovery and Development",
     },
     {
         partnership: "Acquisition",
@@ -5599,7 +5599,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Boehringer Ingelheim",
         to: 622,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Acquisition",
@@ -5743,7 +5743,7 @@ export const mapData = [
         marketValue: "160",
         from: "Boehringer Ingelheim",
         to: 638,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Investment",
@@ -5770,7 +5770,7 @@ export const mapData = [
         marketValue: "45.4",
         from: "Boehringer Ingelheim",
         to: 641,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Investment",
@@ -5788,7 +5788,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Boehringer Ingelheim",
         to: 643,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Investment",
@@ -5797,7 +5797,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Boehringer Ingelheim",
         to: 644,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Partnership",
@@ -5833,7 +5833,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Boehringer Ingelheim",
         to: 648,
-        sector: "Biotechnology ",
+        sector: "Biotechnology",
     },
     {
         partnership: "Investment",
@@ -6311,7 +6311,7 @@ export const mapData = [
         marketValue: "NA",
         from: "GSK",
         to: 700,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Investment",
@@ -6779,7 +6779,7 @@ export const mapData = [
         marketValue: "8",
         from: "Merck KGaA",
         to: 752,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Investment",
@@ -6896,7 +6896,7 @@ export const mapData = [
         marketValue: "30",
         from: "Merck KGaA",
         to: 765,
-        sector: "Drug discovery and Development ",
+        sector: "Drug discovery and Development",
     },
     {
         partnership: "Investment",
@@ -6905,7 +6905,7 @@ export const mapData = [
         marketValue: "4",
         from: "Merck KGaA",
         to: 766,
-        sector: "Drug discovery and Development ",
+        sector: "Drug discovery and Development",
     },
     {
         partnership: "Investment",
@@ -6914,7 +6914,7 @@ export const mapData = [
         marketValue: "1540",
         from: "Merck KGaA",
         to: 767,
-        sector: "Drug discovery and Development ",
+        sector: "Drug discovery and Development",
     },
     {
         partnership: "Partnership",
@@ -6950,7 +6950,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Merck KGaA",
         to: 771,
-        sector: "Drug discovery and Development ",
+        sector: "Drug discovery and Development",
     },
     {
         partnership: "Investment",
@@ -6959,7 +6959,7 @@ export const mapData = [
         marketValue: "674",
         from: "Merck KGaA",
         to: 772,
-        sector: "Drug discovery and Development ",
+        sector: "Drug discovery and Development",
     },
     {
         partnership: "Investment",
@@ -6968,7 +6968,7 @@ export const mapData = [
         marketValue: "1056",
         from: "Merck KGaA",
         to: 773,
-        sector: "Drug discovery and Development ",
+        sector: "Drug discovery and Development",
     },
     {
         partnership: "Investment",
@@ -6977,7 +6977,7 @@ export const mapData = [
         marketValue: "45",
         from: "Merck KGaA",
         to: 774,
-        sector: "Drug discovery and Development ",
+        sector: "Drug discovery and Development",
     },
     {
         partnership: "Investment",
@@ -9830,7 +9830,7 @@ export const mapData = [
         marketValue: "450",
         from: "Eli Lilly & Co",
         to: 1091,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Acquisition",
@@ -10019,7 +10019,7 @@ export const mapData = [
         marketValue: "25",
         from: "Eli Lilly & Co",
         to: 1112,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Investment",
@@ -10280,7 +10280,7 @@ export const mapData = [
         marketValue: "470",
         from: "Eli Lilly & Co",
         to: 1141,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Investment",
@@ -10406,7 +10406,7 @@ export const mapData = [
         marketValue: "NA",
         from: "Eli Lilly & Co",
         to: 1155,
-        sector: "Drug delivery technology",
+        sector: "Drug Delivery Technology",
     },
     {
         partnership: "Investment",
@@ -10474,87 +10474,72 @@ export const mapData = [
 ];
 
 export const modality = [
-    {
-        "name": "Cell therapy",
-        "id": 1
-    },
-    {
-        "name": "Vaccines",
-        "id": 2
-    },
-    {
-        "name": "Small molecule Therapy",
-        "id": 3
-    },
-    {
-        "name": "In-silico drug discovery",
-        "id": 4
-    },
-    {
-        "name": "Gene editing technology (TALEN based)",
-        "id": 5
-    },
-    {
-        "name": "Minimal residual disease (MRD) testing",
-        "id": 6
-    },
-    {
-        "name": "AI-powered diagnostics",
-        "id": 7
-    },
-    {
-        "name": "Digital health tool",
-        "id": 8
-    },
-    {
-        "name": "Antibody-Drug Conjugate (ADC)",
-        "id": 9
-    },
-    {
-        "name": " Implantable medical device",
-        "id": 10
-    },
-    {
-        "name": "Protein Degradation Therapy",
-        "id": 11
-    },
-    {
-        "name": "Gene editing technology (Pin-point based)",
-        "id": 12
-    },
-    {
-        "name": "Precision Therapeutics",
-        "id": 13
-    },
-    {
-        "name": "Neuroscience Therapy",
-        "id": 14
-    },
-    {
-        "name": "Gene therapy",
-        "id": 15
-    },
-    {
-        "name": "RNA Therapeutics",
-        "id": 16
-    },
-    {
-        "name": "Gene editing technologies (CRISPR)",
-        "id": 17
-    },
-    {
-        "name": "AI in clinical trials",
-        "id": 18
-    },
-    {
-        "name": "Bispecific antibodies",
-        "id": 19
-    },
-    {
-        "name": "Ready-To-Use (RTU) infusion oncology products",
-        "id": 20
-    }
-]
+    { id: 1, name: "Cell therapy" },
+    { id: 2, name: "Vaccines" },
+    { id: 3, name: "Small molecule Therapy" },
+    { id: 4, name: "In-silico drug discovery" },
+    { id: 5, name: "Gene editing technology (TALEN based)" },
+    { id: 6, name: "Minimal residual disease (MRD) testing" },
+    { id: 7, name: "AI-powered diagnostics" },
+    { id: 8, name: "Digital health tool" },
+    { id: 9, name: "Antibody-Drug Conjugate (ADC)" },
+    { id: 10, name: "Implantable medical device" },
+    { id: 11, name: "Protein Degradation Therapy" },
+    { id: 12, name: "Gene editing technology (Pin-point based)" },
+    { id: 13, name: "Precision Therapeutics" },
+    { id: 14, name: "Neuroscience Therapy" },
+    { id: 15, name: "Gene therapy" },
+    { id: 16, name: "RNA Therapeutics" },
+    { id: 17, name: "Gene editing technologies (CRISPR)" },
+    { id: 18, name: "AI in clinical trials" },
+    { id: 19, name: "Bispecific antibodies" },
+    { id: 20, name: "Ready-To-Use (RTU) infusion oncology products" },
+    { id: 21, name: "Cytokine-based therapeutics" },
+    { id: 22, name: "Protein and peptide-based Therapeutics" },
+    { id: 23, name: "Targeted Alpha Therapies (TATs)" },
+    { id: 24, name: "Combination Therapy" },
+    { id: 25, name: "Microbiome-based therapies" },
+    { id: 26, name: "Non-invasive healthcare devices" },
+    { id: 27, name: "Multiple modalities" },
+    { id: 28, name: "Tissue engineering" },
+    { id: 29, name: "Genomics analysis" },
+    { id: 30, name: "Therapeutic devices" },
+    { id: 31, name: "Glyco-immunology based therapeutics" },
+    { id: 32, name: "Radiopharmaceutical therapy" },
+    { id: 33, name: "Therapeutics for Food allergy" },
+    { id: 34, name: "Appetite-Suppression Medication" },
+    { id: 35, name: "in vitro diagnostic (IVD) genome testing" },
+    { id: 36, name: "Automated drug manufacturing technology" },
+    { id: 37, name: "Gene delivery vehicles" },
+    { id: 38, name: "Nanotherapeutics" },
+    { id: 39, name: "Intraoperative molecular imaging" },
+    { id: 40, name: "Robotic surgery" },
+    { id: 41, name: "Intranasal spray medications" },
+    { id: 42, name: "Ionic liquid technology" },
+    { id: 43, name: "Active pharmaceutical ingredients (APIs)" },
+    { id: 44, name: "Antiviral Conjugates (AVCs)" },
+    { id: 45, name: "Gene editing (ZFP)" },
+    { id: 46, name: "Polymer technology" },
+    { id: 47, name: "Direct Lytic Agents (DLAs)" },
+    { id: 48, name: "Drug development in Women’s Healthcare" },
+    { id: 49, name: "Monoclonal Antibody" },
+    { id: 50, name: "Antimicrobial Resistance (AMR)" },
+    { id: 51, name: "Dendrimer-based drug delivery" },
+    { id: 52, name: "Regenerative medicine" },
+    { id: 53, name: "3D printing technology" },
+    { id: 54, name: "Oligonucleotide Therapeutics" },
+    { id: 55, name: "Automated drug manufacturing technology" },
+    { id: 56, name: "Implantable medical device" },
+    { id: 57, name: "Antiretroviral therapy" },
+    { id: 58, name: "Gene editing technologies (ARCUS technology)" },
+    { id: 59, name: "Bioprinting Technology" },
+    { id: 60, name: "Point-of-care testing (POCT)" },
+    { id: 61, name: "Electronic Medical Record (EMR) system" },
+    { id: 62, name: "Exosome-based therapeutics" },
+    { id: 63, name: "Organ-on-Chip technology" },
+    { id: 64, name: "Gene editing technologies (RNAi)" },
+    { id: 65, name: "RNA Editing Technology" }
+];
 
 export const companyName = [
     {
@@ -10823,6 +10808,10 @@ export const sector = [
     {
         "name": "Drug manufacturing",
         "id": 6
+    },
+    {
+        "name": "Medical Devices & Equipment",
+        "id": 7
     }
 ]
 

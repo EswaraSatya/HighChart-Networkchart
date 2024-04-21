@@ -22,8 +22,9 @@
 ::-webkit-scrollbar-thumb:active {
   background: #666;
 }
+
 .p-multiselect {
-  width: 360px !important;
+  width: 446px !important;
 }
 
 .p-multiselect.p-multiselect-chip .p-multiselect-token {

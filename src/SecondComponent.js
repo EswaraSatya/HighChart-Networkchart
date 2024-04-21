@@ -8,15 +8,39 @@ import "primereact/resources/themes/lara-light-cyan/theme.css";
 
 function extractUniqueValues(data, key) {
     const uniqueValues = new Set();
-
+    console.log(uniqueValues, key, "uniqueValuesuniqueValues");
     data.forEach(obj => {
         if (obj.hasOwnProperty(key)) {
             uniqueValues.add(obj[key]);
         }
     });
 
-    return Array.from(uniqueValues).map((name, id) => ({ name, id: id + 1 }));
+    const filterFunction = (partner, name) => partner.name.toLowerCase() == name.toLowerCase();
+
+    if (key === "partnership") {
+        return Array.from(uniqueValues).map(name => ({
+            name,
+            id: partnership.find(partner => filterFunction(partner, name))?.id
+        }));
+    } else if (key === "modality") {
+        return Array.from(uniqueValues).map(name => ({
+            name,
+            id: modality.find(partner => filterFunction(partner, name))?.id
+        }));
+    }
+    else if (key === "companyName") {
+        return Array.from(uniqueValues).map(name => ({
+            name,
+            id: companyName.find(partner => filterFunction(partner, name))?.id
+        }));
+    } else if (key === "sector") {
+        return Array.from(uniqueValues).map(name => ({
+            name,
+            id: sector.find(partner => filterFunction(partner, name))?.id
+        }));
+    }
 }
+
 
 const SecondComponent = () => {
     const [filteredData, setFilteredData] = useState([]);
@@ -26,12 +50,10 @@ const SecondComponent = () => {
     const [tooltipCompany, setTooltipCompany] = useState("");
     const [filteredPartnerShip, setfilteredPartnerShip] = useState([])
     const [filteredModality, setfilteredModality] = useState([])
-    const [filteredCompanyName, setfilteredCompanyName] = useState([])
     const [filteredSector, setfilteredSector] = useState([])
 
     const [selectedPartnerships, setSelectedPartnerships] = useState(partnership);
     const [selectedModalities, setSelectedModalities] = useState(modality);
-    const [selectedCompanyNames, setSelectedCompanyNames] = useState(companyName);
     const [selectedSectors, setSelectedSectors] = useState(sector);
     const [justForFormingCheckBoxes, setJustForFormingCheckBoxes] = useState([])
 
@@ -69,7 +91,6 @@ const SecondComponent = () => {
         setJustForFormingCheckBoxes(companyData)
         setfilteredPartnerShip(extractUniqueValues(companyData, "partnership"))
         setfilteredModality(extractUniqueValues(companyData, "modality"))
-        setfilteredCompanyName(extractUniqueValues(companyData, "companyName"))
         setfilteredSector(extractUniqueValues(companyData, "sector"))
     };
 
@@ -83,16 +104,12 @@ const SecondComponent = () => {
 
 
     const handleFilterChange = (values, filterType) => {
-        console.log(values, "valuesvalues--")
         switch (filterType) {
             case 'partnership':
                 setSelectedPartnerships(values);
                 break;
             case 'modality':
                 setSelectedModalities(values);
-                break;
-            case 'companyName':
-                setSelectedCompanyNames(values);
                 break;
             case 'sector':
                 setSelectedSectors(values);
@@ -361,15 +378,12 @@ const SecondComponent = () => {
         }).filter(item => {
             return selectedModalities.some(selected => selected.name === item.modality);
         }).filter(item => {
-            return selectedCompanyNames.some(selected => selected.name === item.companyName);
-        }).filter(item => {
             return selectedSectors.some(selected => selected.name === item.sector);
         });
-        console.log('filteredData', filteredData)
-        setFilteredData(filteredData);
-    }, [selectedPartnerships, selectedModalities, selectedCompanyNames, selectedSectors]);
 
-    console.log('selectedPartnerships', selectedPartnerships)
+        setFilteredData(filteredData);
+    }, [selectedPartnerships, selectedModalities, selectedSectors]);
+
     return (
         <>
             {tooltipVisible && (
@@ -388,7 +402,7 @@ const SecondComponent = () => {
                     onChange={(e) => handleFilterChange(e.value, 'partnership')}
                     options={filteredPartnerShip}
                     optionLabel="name"
-                    display="chip"
+                    filter
                     placeholder="Select Partnership"
                     maxSelectedLabels={3}
                     className="w-full md:w-20rem"
@@ -402,17 +416,7 @@ const SecondComponent = () => {
                     placeholder="Select Sector"
                     maxSelectedLabels={3}
                     className="w-full md:w-20rem"
-                    display="chip"
-                />
-                <MultiSelect
-                    value={selectedCompanyNames}
-                    options={filteredCompanyName}
-                    onChange={(e) => handleFilterChange(e.value, 'companyName')}
-                    optionLabel="name"
-                    placeholder="Select Company Name"
-                    maxSelectedLabels={3}
-                    className="w-full md:w-20rem"
-                    display="chip"
+                    filter
                 />
                 <MultiSelect
                     value={selectedModalities}
@@ -422,7 +426,7 @@ const SecondComponent = () => {
                     placeholder="Select Modality"
                     maxSelectedLabels={3}
                     className="w-full md:w-20rem"
-                    display="chip"
+                    filter
                 />
             </div>
             <div style={{ display: "flex", alignItems: "center" }}>
